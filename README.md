@@ -1,86 +1,213 @@
 <div align="center">
 
-# Hi there, I'm Jonathan Medalla 👋
+# Jonathan Medalla
 
-### Full Stack Developer & Data Scientist Enthusiast
+### Senior Full Stack Engineer | Systems Architect | AI/ML Enthusiast
 
-_Passionate about building scalable web platforms, solving complex problems, and analyzing data._
+_Building production-grade systems that scale. Specializing in Python, TypeScript, and Cloud Architecture._
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jonatthan.medalla@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-blueviolet?style=flat-square)](https://medalcode.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-FE7A16?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:jonatthan.medalla@gmail.com)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## �‍💻 About Me
 
-- 🔭 I’m currently working on **a collaborative web platform for home services.**
-- 🌱 I’m currently learning **SAP, AWS Cloud, and Data Science with R.**
-- 👯 I’m looking to collaborate with **companies needing expertise in Python, Linux, or SQL.**
-- 💬 Ask me about **Python, Linux, SQL, or Systems Architecture.**
-- ⚡ **Fun fact**: I don't like chocolate or avocado. I'm cut from a different cloth.
+I'm a **Full Stack Engineer** with a focus on **scalable architectures**, **data-driven solutions**, and **production-ready systems**. I build software that solves real problems—from AI-powered ATS platforms to algorithmic trading bots and financial data pipelines.
 
----
-
-## 🛠️ Tech Stack
-
-### 💻 Languages
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-### 🌐 Frontend & Mobile
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
-
-### 🗄️ Backend & Database
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-
-### ☁️ Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-
-### 📊 Tools & Data Science
-
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+- 🏗️ **Currently Building**: AI-powered recruitment tools, GitHub analytics platforms, and financial data systems
+- 🎯 **Expertise**: Python • TypeScript • System Design • Cloud Architecture • DevOps
+- 🧪 **Philosophy**: Test-driven development, hexagonal architecture, and fail-safe design patterns
+- � **Learning**: Advanced AWS services, LLM integration patterns, and distributed systems
+- 💡 **Open to**: Senior engineering roles, technical leadership, and architectural consulting
 
 ---
 
-## 🌟 Featured Projects
+## 🚀 Featured Projects
 
-| Project       | Description                                                                     | Tech Stack                                                                                                                                                           |
-| :------------ | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Project 1** | _Coming Soon..._ Currently building a collaborative platform for home services. | ![React](https://img.shields.io/badge/-React-black?logo=react&logoColor=61DAFB) ![NodeJS](https://img.shields.io/badge/-NodeJS-black?logo=node.js&logoColor=white)   |
-| **Project 2** | Description of your second best project.                                        | ![Python](https://img.shields.io/badge/-Python-black?logo=python&logoColor=yellow) ![Django](https://img.shields.io/badge/-Django-black?logo=django&logoColor=white) |
-| **Project 3** | Description of your data science or analysis project.                           | ![R](https://img.shields.io/badge/-R-black?logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-black?logo=mysql&logoColor=white)                        |
+### 🤖 [Nidus ATS](https://github.com/medalcode/Nidus)
+
+**AI-Powered Applicant Tracking System**
+
+Production-ready ATS combining deterministic matching (TF-IDF) with semantic reasoning (LLM) to rank candidates.
+
+- **Architecture**: Hybrid Sync/Async with FastAPI, Celery, Redis, PostgreSQL
+- **AI Integration**: Llama 3-70b via Groq for semantic analysis
+- **Frontend**: React 18 + TailwindCSS v4 + TanStack Query
+- **Key Features**: PDF parsing, AI-powered matching, real-time job ranking
+
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+### 📊 [GitSpy](https://github.com/medalcode/GitSpy)
+
+**The Operating System for Your Open Source Projects**
+
+Serverless platform transforming GitHub repositories into dynamic workspaces with analytics, caching, and Kanban visualization.
+
+- **Architecture**: Modular monolith optimized for Vercel serverless deployment
+- **Stack**: TypeScript, Express, Redis, BullMQ, SQLite → PostgreSQL migration
+- **Testing**: 70+ tests with 95%+ coverage on critical paths
+- **Features**: Smart caching, rate limiting, webhook processing, Prometheus metrics
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+**[📖 Case Study](https://github.com/medalcode/GitSpy/blob/main/docs/CASE_STUDY.md)** | **[🧪 Testing Strategy](https://github.com/medalcode/GitSpy/blob/main/docs/TESTING_STRATEGY.md)** | **[🔒 Security Posture](https://github.com/medalcode/GitSpy/blob/main/docs/SECURITY_POSTURE.md)**
+
+---
+
+### 📈 [ARGOS Trading Bot](https://github.com/medalcode/Argos)
+
+**Professional Algorithmic Trading System**
+
+Production-grade trading bot for Binance Spot with Triple Filter strategy, dynamic trailing stops, and real-time dashboard.
+
+- **Strategy**: Multi-indicator filtering (RSI, MACD, Bollinger Bands)
+- **Infrastructure**: Docker-ready with watchdog auto-recovery
+- **Monitoring**: Web dashboard with live metrics and performance tracking
+- **Testing**: 100% test coverage with Testnet validation
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+---
+
+### 🧮 [MatrixCalc](https://github.com/medalcode/Matrixcalc)
+
+**Cloud-Native Linear Algebra Workspace**
+
+Production-grade platform for rigorous matrix computations with backend-guaranteed numerical stability.
+
+- **Compute Engine**: NumPy-powered (SVD, Eigenvalues, QR, Cholesky)
+- **GlassBox Mode**: Step-by-step algorithm visualization for learning
+- **Architecture**: Django + Vue 3 + Google Cloud Run
+- **Features**: Persistent workspace, audit trails, CSV import/export
+
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+
+---
+
+### 🔍 [Skema](https://github.com/medalcode/Skema)
+
+**Intelligent Requirements Classification Pipeline**
+
+Automated triaging system for software requirements at scale, transforming unstructured text into actionable data.
+
+- **Architecture**: Hexagonal architecture with pluggable classifiers
+- **Design**: Modular pipeline (Ingestion → Normalization → Classification → Distribution)
+- **Extensibility**: Rule-based engine ready for LLM integration
+- **Use Cases**: Backlog grooming, support routing, sentiment analysis
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+---
+
+### 💰 [FinLogic](https://github.com/medalcode/FinLogic)
+
+**Lightweight Financial Data Platform**
+
+Financial data engineering platform with "Lightweight Ingest, Heavy Analysis" architecture.
+
+- **Storage**: DuckDB for OLAP queries on local parquet/ndjson files
+- **Compute**: FastAPI endpoints for vectorized financial calculations (NPV, IRR, VaR)
+- **Design**: Bronze-layer data preservation for auditability
+- **Target**: Quant teams, fintech MVPs, and data scientists
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+
+---
+
+## 🛠️ Technical Expertise
+
+### **Core Languages**
+
+Python (Expert) • TypeScript/JavaScript (Advanced) • Java • R • SQL • Bash
+
+### **Backend & APIs**
+
+FastAPI • Django • Node.js/Express • REST • GraphQL • WebSockets
+
+### **Frontend**
+
+React • Vue 3 • Astro • TailwindCSS • Preact • TypeScript
+
+### **Databases & Caching**
+
+PostgreSQL • MongoDB • Redis • SQLite • DuckDB • DynamoDB
+
+### **Cloud & DevOps**
+
+AWS • Google Cloud • Docker • Vercel • CI/CD • Serverless • Kubernetes
+
+### **Data & ML**
+
+NumPy • Pandas • Scikit-learn • LLM Integration • Data Pipelines • Analytics
+
+### **Architecture Patterns**
+
+Hexagonal Architecture • Event-Driven Design • Microservices • Monolithic Modular • DDD
+
+---
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=medalcode&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="stats graph" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medalcode&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
-
-<br>
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=medalcode&theme=radical&hide_border=true" height="150" alt="streak graph" />
+<img src="https://github-readme-stats.vercel.app/api?username=medalcode&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medalcode&layout=compact&theme=radical&hide_border=true&langs_count=8" height="165" alt="Top Languages" />
 
 </div>
 
-### 🏆 Trophies
-
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=medalcode&theme=radical&no-frame=true&no-bg=true&margin-w=4" />
-  </a>
+<img src="https://nirzak-streak-stats.vercel.app/?user=medalcode&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
 
-<div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=medalcode&icon=0&color=0" />
-</div>
+## 📝 Technical Writing & Case Studies
 
-<!-- Proudly updated with ❤️ by your AI Assistant -->
+I believe in **transparent engineering**. All my major projects include comprehensive documentation:
+
+- **Architecture Decision Records (ADRs)**: Documenting the "why" behind technical choices
+- **Case Studies**: Deep dives into system design, trade-offs, and lessons learned
+- **Testing Strategies**: Layered testing approaches with security-critical path coverage
+- **Security Postures**: Honest assessments of mitigated and accepted risks
+
+**[📚 View Full Portfolio →](https://medalcode.vercel.app)**
+
+---
+
+## 🎯 What I'm Looking For
+
+I'm interested in **senior engineering roles** where I can:
+
+- Design and build **scalable, production-grade systems**
+- Lead **architectural decisions** and mentor engineering teams
+- Work with **modern tech stacks** (Python, TypeScript, Cloud-Native)
+- Solve **complex technical challenges** in domains like AI/ML, FinTech, or SaaS
+
+**Open to**: Full-time positions, contract work, and technical consulting.
+
+---
+
+## 📫 Let's Connect
+
+- 🌐 **Portfolio**: [medalcode.vercel.app](https://medalcode.vercel.app)
+- 💼 **LinkedIn**: [linkedin.com/in/medalcode](https://linkedin.com/in/medalcode)
+- 📧 **Email**: [jonatthan.medalla@gmail.com](mailto:jonatthan.medalla@gmail.com)
+- 💬 **Stack Overflow**: [stackoverflow.com/users/488543](https://stackoverflow.com/users/488543)
+
+---
+
+<div align="center">
+
+### ⚡ Fun Fact
+
+I don't like chocolate or avocado. I'm cut from a different cloth. 🧵
+
+---
+
+<sub>Last updated: February 2026 | Built with ❤️ and lots of ☕</sub>
+
+</div>
