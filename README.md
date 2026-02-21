@@ -1,10 +1,10 @@
 <div align="center">
 
-# Jonathan Medalla
+# Jonatthan Medalla Aliste
 
-### Senior Full Stack Engineer | Systems Architect | AI/ML Enthusiast
+### Full Stack Developer | IT Operations & Data Analysis | Python · Django · React
 
-_Building production-grade systems that scale. Specializing in Python, TypeScript, and Cloud Architecture._
+_15+ años asegurando continuidad operativa en telecomunicaciones. Hoy construyo software que automatiza, analiza y resuelve problemas reales._
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-blueviolet?style=flat-square)](https://medalcode.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-FE7A16?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:jonatthan.medalla@gmail.com)
 
@@ -12,141 +12,169 @@ _Building production-grade systems that scale. Specializing in Python, TypeScrip
 
 ---
 
-## �‍💻 About Me
+## 👨‍💻 Sobre Mí
 
-I'm a **Full Stack Engineer** with a focus on **scalable architectures**, **data-driven solutions**, and **production-ready systems**. I build software that solves real problems—from AI-powered ATS platforms to algorithmic trading bots and financial data pipelines.
+Soy un desarrollador con raíces profundas en **operaciones IT y telecomunicaciones** y una transición activa hacia el desarrollo Full Stack y análisis de datos. Mi diferencial es simple: entiendo los sistemas desde adentro, no solo desde el código.
 
-- 🏗️ **Currently Building**: AI-powered recruitment tools, GitHub analytics platforms, and financial data systems
-- 🎯 **Expertise**: Python • TypeScript • System Design • Cloud Architecture • DevOps
-- 🧪 **Philosophy**: Test-driven development, hexagonal architecture, and fail-safe design patterns
-- � **Learning**: Advanced AWS services, LLM integration patterns, and distributed systems
-- 💡 **Open to**: Senior engineering roles, technical leadership, and architectural consulting
-
----
-
-## 🚀 Featured Projects
-
-### 🤖 [Nidus ATS](https://github.com/medalcode/Nidus)
-
-**AI-Powered Applicant Tracking System**
-
-Production-ready ATS combining deterministic matching (TF-IDF) with semantic reasoning (LLM) to rank candidates.
-
-- **Architecture**: Hybrid Sync/Async with FastAPI, Celery, Redis, PostgreSQL
-- **AI Integration**: Llama 3-70b via Groq for semantic analysis
-- **Frontend**: React 18 + TailwindCSS v4 + TanStack Query
-- **Key Features**: PDF parsing, AI-powered matching, real-time job ranking
-
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+- 🏗️ **Background**: 15+ años en soporte técnico de alto nivel — VTR, KonectaChile, Anovo
+- 🎯 **Stack actual**: Python · Django · React · Node.js · SQL · MongoDB · Docker
+- 📊 **Especialidad**: Integración y procesamiento de datos (SQL, Power BI, Python), automatización de operaciones
+- 🎓 **Formación**: Analista Programador INACAP · Certificaciones en Full Stack, Cloud Architecture, DB Design
+- 🌐 **Idiomas**: Español (nativo) · Inglés (B2)
+- 💡 **Enfoque**: Construir herramientas que resuelvan problemas operativos reales con visión de desarrollador
 
 ---
 
-### 📊 [GitSpy](https://github.com/medalcode/GitSpy)
+## 🚀 Proyectos Destacados
 
-**The Operating System for Your Open Source Projects**
+### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
 
-Serverless platform transforming GitHub repositories into dynamic workspaces with analytics, caching, and Kanban visualization.
+**Sistema de Seguimiento de Candidatos con IA**
 
-- **Architecture**: Modular monolith optimized for Vercel serverless deployment
-- **Stack**: TypeScript, Express, Redis, BullMQ, SQLite → PostgreSQL migration
-- **Testing**: 70+ tests with 95%+ coverage on critical paths
-- **Features**: Smart caching, rate limiting, webhook processing, Prometheus metrics
+ATS moderno que analiza CVs, rankea candidatos contra descripciones de empleo y genera insights accionables usando Inteligencia Artificial.
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+- **Stack**: FastAPI · React · PostgreSQL · LLM Integration
+- **Key features**: Parsing de PDFs, matching semántico con IA, ranking de candidatos en tiempo real
 
-**[📖 Case Study](https://github.com/medalcode/GitSpy/blob/main/docs/CASE_STUDY.md)** | **[🧪 Testing Strategy](https://github.com/medalcode/GitSpy/blob/main/docs/TESTING_STRATEGY.md)** | **[🔒 Security Posture](https://github.com/medalcode/GitSpy/blob/main/docs/SECURITY_POSTURE.md)**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
 ---
 
-### 📈 [ARGOS Trading Bot](https://github.com/medalcode/Argos)
+### 📊 [GitSpy](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app)
 
-**Professional Algorithmic Trading System**
+**API Middleware para GitHub Analytics**
 
-Production-grade trading bot for Binance Spot with Triple Filter strategy, dynamic trailing stops, and real-time dashboard.
+API intermedia que centraliza y optimiza llamadas a GitHub con sistema de caché inteligente, cola de eventos y rate limiting.
 
-- **Strategy**: Multi-indicator filtering (RSI, MACD, Bollinger Bands)
-- **Infrastructure**: Docker-ready with watchdog auto-recovery
-- **Monitoring**: Web dashboard with live metrics and performance tracking
-- **Testing**: 100% test coverage with Testnet validation
+- **Stack**: TypeScript · Node.js · Redis · Vercel
+- **Key features**: Smart caching, rate limiting, webhook processing, métricas de repositorios
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ---
 
-### 🧮 [MatrixCalc](https://github.com/medalcode/Matrixcalc)
+### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
 
-**Cloud-Native Linear Algebra Workspace**
+**Suite de Herramientas de Red 100% Client-Side**
 
-Production-grade platform for rigorous matrix computations with backend-guaranteed numerical stability.
+Herramientas de red profesionales que corren directo en el navegador: cálculo VLSM, análisis de subredes, DNS lookup, generación de configuraciones.
 
-- **Compute Engine**: NumPy-powered (SVD, Eigenvalues, QR, Cholesky)
-- **GlassBox Mode**: Step-by-step algorithm visualization for learning
-- **Architecture**: Django + Vue 3 + Google Cloud Run
-- **Features**: Persistent workspace, audit trails, CSV import/export
+> Proyecto que nace de mi experiencia real en telecomunicaciones —conozco los problemas porque los viví.
 
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+- **Stack**: JavaScript · HTML · CSS · Sin backend
+- **Key features**: VLSM calculator, subnet analyzer, DNS lookup, privacidad total (client-side)
 
----
-
-### 🔍 [Skema](https://github.com/medalcode/Skema)
-
-**Intelligent Requirements Classification Pipeline**
-
-Automated triaging system for software requirements at scale, transforming unstructured text into actionable data.
-
-- **Architecture**: Hexagonal architecture with pluggable classifiers
-- **Design**: Modular pipeline (Ingestion → Normalization → Classification → Distribution)
-- **Extensibility**: Rule-based engine ready for LLM integration
-- **Use Cases**: Backlog grooming, support routing, sentiment analysis
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ---
 
-### 💰 [FinLogic](https://github.com/medalcode/FinLogic)
+### 📈 [Myna](https://github.com/Medalcode/Myna) · [Demo](https://myna-gamma.vercel.app)
 
-**Lightweight Financial Data Platform**
+**Plataforma de Data Mining e Inteligencia de Datos**
 
-Financial data engineering platform with "Lightweight Ingest, Heavy Analysis" architecture.
+Aplicación modular para análisis descriptivo, limpieza de datos, detección de outliers, clustering y visualización interactiva sobre datasets CSV y Excel.
 
-- **Storage**: DuckDB for OLAP queries on local parquet/ndjson files
-- **Compute**: FastAPI endpoints for vectorized financial calculations (NPV, IRR, VaR)
-- **Design**: Bronze-layer data preservation for auditability
-- **Target**: Quant teams, fintech MVPs, and data scientists
+- **Stack**: Python · Django · Pandas · Scikit-learn
+- **Key features**: Estadísticas descriptivas, clustering, detección de anomalías, visualizaciones interactivas
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Scikit--learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+---
+
+### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
+
+**Plataforma de Ingeniería de Datos Financieros**
+
+Arquitectura "Lightweight Ingest, Heavy Analysis": elimina la fricción entre ingestión de datos de mercado y análisis cuantitativo.
+
+- **Stack**: Python · FastAPI · DuckDB · Parquet
+- **Key features**: Cálculos vectorizados (NPV, IRR, VaR), preservación de datos en capa Bronze, queries OLAP
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 
 ---
 
-## 🛠️ Technical Expertise
+### 🧮 [MatrixCalc](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-frontend-541716295092.us-central1.run.app)
 
-### **Core Languages**
+**Calculadora de Álgebra Lineal en la Nube**
 
-Python (Expert) • TypeScript/JavaScript (Advanced) • Java • R • SQL • Bash
+Plataforma de cómputo matricial con motor NumPy, modo GlassBox para visualizar algoritmos paso a paso, y API REST.
+
+- **Stack**: Django · Vue 3 · NumPy · Google Cloud Run
+- **Key features**: SVD, eigenvalues, QR, Cholesky, workspace persistente, exportación CSV
+
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white) ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+
+---
+
+### 🔍 [Skema](https://github.com/Medalcode/Skema)
+
+**Pipeline de Clasificación Automática de Requerimientos**
+
+Sistema de triaje y enrutamiento de requerimientos de software a escala, transformando texto no estructurado en datos operativos accionables.
+
+- **Stack**: Python · FastAPI
+- **Arquitectura**: Hexagonal con clasificadores intercambiables (reglas → LLM)
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+---
+
+### 🎯 [Pathwise](https://github.com/Medalcode/Pathwise) · [Demo](https://panoptes-nine.vercel.app)
+
+**Ecosistema de Automatización de Búsqueda de Empleo**
+
+Sistema avanzado que combina extensión Chrome, dashboard web y motor de IA para automatizar y personalizar la búsqueda de empleo.
+
+- **Stack**: JavaScript · Python · Chrome Extension API
+- **Key features**: Scraping de ofertas, matching con perfil, dashboard de seguimiento
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+---
+
+### 🏪 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app)
+
+**E-commerce — Proyecto Personal Real**
+
+Sitio web de mi emprendimiento propio: diseño, implementación, administración y estrategia digital de punta a punta.
+
+- **Stack**: TypeScript · Next.js
+- **Rol**: Co-fundador, Gestor de Operaciones Digitales (Sep 2023 – Jul 2025)
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+
+---
+
+## 🛠️ Stack Técnico
+
+### **Lenguajes**
+
+Python • JavaScript • SQL • R • HTML • CSS • NoSQL • Java (básico)
 
 ### **Backend & APIs**
 
-FastAPI • Django • Node.js/Express • REST • GraphQL • WebSockets
+Django • FastAPI • Node.js/Express • REST APIs
 
 ### **Frontend**
 
-React • Vue 3 • Astro • TailwindCSS • Preact • TypeScript
+React • Vue 3 • TypeScript • HTML/CSS
 
-### **Databases & Caching**
+### **Bases de Datos & Caching**
 
-PostgreSQL • MongoDB • Redis • SQLite • DuckDB • DynamoDB
+PostgreSQL • MongoDB • SQLite • DuckDB • Redis
 
 ### **Cloud & DevOps**
 
-AWS • Google Cloud • Docker • Vercel • CI/CD • Serverless • Kubernetes
+Google Cloud Run • Docker • Vercel • Netlify • GitHub Actions
 
-### **Data & ML**
+### **Data & Analytics**
 
-NumPy • Pandas • Scikit-learn • LLM Integration • Data Pipelines • Analytics
+Pandas • NumPy • Scikit-learn • Power BI • DuckDB · Matplotlib
 
-### **Architecture Patterns**
+### **Herramientas & Plataformas**
 
-Hexagonal Architecture • Event-Driven Design • Microservices • Monolithic Modular • DDD
+VSCode • GitHub • Jira • Siebel • Salesforce · Notion · Linux
 
 ---
 
@@ -165,38 +193,52 @@ Hexagonal Architecture • Event-Driven Design • Microservices • Monolithic 
 
 ---
 
-## 📝 Technical Writing & Case Studies
+## 💼 Experiencia Profesional Relevante
 
-I believe in **transparent engineering**. All my major projects include comprehensive documentation:
+| Empresa | Rol | Período |
+|---|---|---|
+| **Toallaalacarta** | Co-Fundador & Gestor de Operaciones Digitales | Sep 2023 – Jul 2025 |
+| **VTR Comunicaciones** | Ejecutivo Senior Soporte Back Office | Ago 2009 – Ene 2023 |
+| **KonectaChile** | Ejecutivo de Mesa de Ayuda | Ene 2007 – Jul 2009 |
+| **Anovo** | Técnico de Reparación de Equipos Móviles | Ene 2003 – Nov 2006 |
 
-- **Architecture Decision Records (ADRs)**: Documenting the "why" behind technical choices
-- **Case Studies**: Deep dives into system design, trade-offs, and lessons learned
-- **Testing Strategies**: Layered testing approaches with security-critical path coverage
-- **Security Postures**: Honest assessments of mitigated and accepted risks
-
-**[📚 View Full Portfolio →](https://medalcode.vercel.app)**
-
----
-
-## 🎯 What I'm Looking For
-
-I'm interested in **senior engineering roles** where I can:
-
-- Design and build **scalable, production-grade systems**
-- Lead **architectural decisions** and mentor engineering teams
-- Work with **modern tech stacks** (Python, TypeScript, Cloud-Native)
-- Solve **complex technical challenges** in domains like AI/ML, FinTech, or SaaS
-
-**Open to**: Full-time positions, contract work, and technical consulting.
+> En VTR: monitoreo proactivo de servicios, análisis de KPIs con tablas dinámicas, recolección y procesamiento de datos desde múltiples fuentes.
 
 ---
 
-## 📫 Let's Connect
+## 🎓 Formación & Certificaciones
+
+| Institución | Título / Certificación | Período |
+|---|---|---|
+| **INACAP** | Analista Programador | 2023 – 2024 |
+| **INACAP** | Desarrollo Full Stack | 2024 – 2025 |
+| **INACAP** | Arquitectura Cloud | 2024 – 2025 |
+| **INACAP** | Diseño y Gestión de Bases de Datos | 2023 – 2024 |
+| **INACAP** | Diseño Ágil de Sistemas | 2023 – 2024 |
+| **DUOC UC** | Administración y Soporte de Sistemas | 2017 – 2018 |
+| **Lic. Industrial Hardware** | Técnico en Telecomunicaciones | 1999 – 2002 |
+
+---
+
+## 🎯 Lo Que Busco
+
+Estoy abierto a roles donde pueda aportar mi combinación única de:
+
+- **Experiencia operativa real** en grandes empresas de telecomunicaciones
+- **Capacidad técnica** en desarrollo Full Stack y análisis de datos
+- **Mentalidad orientada a soluciones**: construyo software que resuelve problemas que conozco de primera mano
+
+**Abierto a**: Posiciones de desarrollador junior/mid, roles de soporte técnico avanzado, data analyst, y consulting técnico.
+
+---
+
+## 📫 Contacto
 
 - 🌐 **Portfolio**: [medalcode.vercel.app](https://medalcode.vercel.app)
 - 💼 **LinkedIn**: [linkedin.com/in/medalcode](https://linkedin.com/in/medalcode)
 - 📧 **Email**: [jonatthan.medalla@gmail.com](mailto:jonatthan.medalla@gmail.com)
-- 💬 **Stack Overflow**: [stackoverflow.com/users/488543](https://stackoverflow.com/users/488543)
+- 📍 **Ubicación**: Santiago, Chile
+- 📞 **Teléfono**: +569 63414627
 
 ---
 
@@ -204,10 +246,10 @@ I'm interested in **senior engineering roles** where I can:
 
 ### ⚡ Fun Fact
 
-I don't like chocolate or avocado. I'm cut from a different cloth. 🧵
+No me gusta el chocolate ni la palta. Soy de otro tejido. 🧵
 
 ---
 
-<sub>Last updated: February 2026 | Built with ❤️ and lots of ☕</sub>
+<sub>Última actualización: Febrero 2026 | Construido con ❤️ y mucho ☕</sub>
 
 </div>
