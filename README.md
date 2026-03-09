@@ -250,6 +250,6 @@ No me gusta el chocolate ni la palta. Soy de otro tejido. 🧵
 
 ---
 
-<sub>Última actualización: Febrero 2026 | Construido con ❤️ y mucho ☕</sub>
+<sub>Última actualización: Marzo 2026 | Construido con ❤️ y mucho ☕</sub>
 
 </div>
