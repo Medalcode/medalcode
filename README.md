@@ -1,12 +1,20 @@
 <div align="center">
+  <img src=".github/assets/banner.svg" width="100%" alt="Jonatthan Medalla - Banner" />
+</div>
+
+<br />
+
+<div align="center">
 
 # Jonatthan Medalla Aliste
+### Reliability-focused Software Engineer & Data-driven Developer
 
-### Full Stack Developer | IT Operations & Data Analysis | Python · Django · React
-
-_15+ años asegurando continuidad operativa en telecomunicaciones. Hoy construyo software que automatiza, analiza y resuelve problemas reales._
-
-[![CI](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml/badge.svg)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml) [![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-blueviolet?style=flat-square)](https://medalcode.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-FE7A16?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:jonatthan.medalla@gmail.com) [![Download CV](https://img.shields.io/badge/Download-CV-4285F4?style=flat-square&logo=googledrive)](https://github.com/Medalcode/medalcode/releases/latest/download/CV_2026_S.pdf)
+[![CI](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml/badge.svg)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml)
+[![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-60a5fa?style=flat-square&logo=google-chrome&logoColor=white)](https://medalcode.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-a78bfa?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/medalcode)
+[![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-f472b6?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/488543)
+[![Email](https://img.shields.io/badge/Email-Contact-38bdf8?style=flat-square&logo=gmail&logoColor=white)](mailto:jonatthan.medalla@gmail.com)
+[![Download CV](https://img.shields.io/badge/Download-CV-fb923c?style=flat-square&logo=gitbook&logoColor=white)](https://github.com/Medalcode/medalcode/releases/latest/download/CV_2026_S.pdf)
 
 </div>
 
@@ -14,242 +22,154 @@ _15+ años asegurando continuidad operativa en telecomunicaciones. Hoy construyo
 
 ## 👨‍💻 Sobre Mí
 
-Soy un desarrollador con raíces profundas en **operaciones IT y telecomunicaciones** y una transición activa hacia el desarrollo Full Stack y análisis de datos. Mi diferencial es simple: entiendo los sistemas desde adentro, no solo desde el código.
+Soy un ingeniero de software con una base sólida de **más de 15 años de trayectoria en operaciones IT de alta disponibilidad y telecomunicaciones**. Mi transición hacia el desarrollo Full Stack y la ingeniería de datos combina lo mejor de dos mundos: la capacidad técnica para escribir código moderno y eficiente, y la mentalidad operativa para garantizar que los sistemas funcionen bajo presión en producción.
 
-- 🏗️ **Background**: 15+ años en soporte técnico de alto nivel — VTR, KonectaChile, Anovo
-- 🎯 **Stack actual**: Python · Django · React · Node.js · SQL · MongoDB · Docker
-- 📊 **Especialidad**: Integración y procesamiento de datos (SQL, Power BI, Python), automatización de operaciones
-- 🎓 **Formación**: Analista Programador INACAP · Certificaciones en Full Stack, Cloud Architecture, DB Design
-- 🌐 **Idiomas**: Español (nativo) · Inglés (B2)
-- 💡 **Enfoque**: Construir herramientas que resuelvan problemas operativos reales con visión de desarrollador
-
----
-
-## 🚀 Proyectos Destacados
-
-### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
-
-**Sistema de Seguimiento de Candidatos con IA**
-
-ATS moderno que analiza CVs, rankea candidatos contra descripciones de empleo y genera insights accionables usando Inteligencia Artificial.
-
-- **Stack**: FastAPI · React · PostgreSQL · LLM Integration
-- **Key features**: Parsing de PDFs, matching semántico con IA, ranking de candidatos en tiempo real
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
----
-
-### 📊 [GitSpy](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app)
-
-**API Middleware para GitHub Analytics**
-
-API intermedia que centraliza y optimiza llamadas a GitHub con sistema de caché inteligente, cola de eventos y rate limiting.
-
-- **Stack**: TypeScript · Node.js · Redis · Vercel
-- **Key features**: Smart caching, rate limiting, webhook processing, métricas de repositorios
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
----
-
-### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
-
-**Suite de Herramientas de Red 100% Client-Side**
-
-Herramientas de red profesionales que corren directo en el navegador: cálculo VLSM, análisis de subredes, DNS lookup, generación de configuraciones.
-
-> Proyecto que nace de mi experiencia real en telecomunicaciones —conozco los problemas porque los viví.
-
-- **Stack**: JavaScript · HTML · CSS · Sin backend
-- **Key features**: VLSM calculator, subnet analyzer, DNS lookup, privacidad total (client-side)
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-
----
-
-### 📈 [Myna](https://github.com/Medalcode/Myna) · [Demo](https://myna-gamma.vercel.app)
-
-**Plataforma de Data Mining e Inteligencia de Datos**
-
-Aplicación modular para análisis descriptivo, limpieza de datos, detección de outliers, clustering y visualización interactiva sobre datasets CSV y Excel.
-
-- **Stack**: Python · Django · Pandas · Scikit-learn
-- **Key features**: Estadísticas descriptivas, clustering, detección de anomalías, visualizaciones interactivas
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Scikit--learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
----
-
-### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
-
-**Plataforma de Ingeniería de Datos Financieros**
-
-Arquitectura "Lightweight Ingest, Heavy Analysis": elimina la fricción entre ingestión de datos de mercado y análisis cuantitativo.
-
-- **Stack**: Python · FastAPI · DuckDB · Parquet
-- **Key features**: Cálculos vectorizados (NPV, IRR, VaR), preservación de datos en capa Bronze, queries OLAP
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-
----
-
-### 🧮 [MatrixCalc](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-frontend-541716295092.us-central1.run.app)
-
-**Calculadora de Álgebra Lineal en la Nube**
-
-Plataforma de cómputo matricial con motor NumPy, modo GlassBox para visualizar algoritmos paso a paso, y API REST.
-
-- **Stack**: Django · Vue 3 · NumPy · Google Cloud Run
-- **Key features**: SVD, eigenvalues, QR, Cholesky, workspace persistente, exportación CSV
-
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white) ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-
----
-
-### 🔍 [Skema](https://github.com/Medalcode/Skema)
-
-**Pipeline de Clasificación Automática de Requerimientos**
-
-Sistema de triaje y enrutamiento de requerimientos de software a escala, transformando texto no estructurado en datos operativos accionables.
-
-- **Stack**: Python · FastAPI
-- **Arquitectura**: Hexagonal con clasificadores intercambiables (reglas → LLM)
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
----
-
-### 🎯 [Pathwise](https://github.com/Medalcode/Pathwise) · [Demo](https://panoptes-nine.vercel.app)
-
-**Ecosistema de Automatización de Búsqueda de Empleo**
-
-Sistema avanzado que combina extensión Chrome, dashboard web y motor de IA para automatizar y personalizar la búsqueda de empleo.
-
-- **Stack**: JavaScript · Python · Chrome Extension API
-- **Key features**: Scraping de ofertas, matching con perfil, dashboard de seguimiento
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
----
-
-### 🏪 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app)
-
-**E-commerce — Proyecto Personal Real**
-
-Sitio web de mi emprendimiento propio: diseño, implementación, administración y estrategia digital de punta a punta.
-
-- **Stack**: TypeScript · Next.js
-- **Rol**: Co-fundador, Gestor de Operaciones Digitales (Sep 2023 – Jul 2025)
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+*   **Enfoque de Ingeniería:** Construir herramientas estables que automaticen flujos complejos, procesen datos a gran escala y resuelvan problemas operativos reales.
+*   **ADN de Operaciones:** Monitoreo, diagnóstico de causa raíz y resiliencia de infraestructura (experiencia real liderando soporte técnico en VTR y Konecta).
+*   **Educación y Metodologías:** Analista Programador e Ingeniero en Informática (INACAP), con certificaciones en Cloud Architecture, Diseño de Bases de Datos y Desarrollo Ágil.
 
 ---
 
 ## 🛠️ Stack Técnico
 
-### **Lenguajes**
-
-Python • JavaScript • SQL • R • HTML • CSS • NoSQL • Java (básico)
-
-### **Backend & APIs**
-
-Django • FastAPI • Node.js/Express • REST APIs
-
-### **Frontend**
-
-React • Vue 3 • TypeScript • HTML/CSS
-
-### **Bases de Datos & Caching**
-
-PostgreSQL • MongoDB • SQLite • DuckDB • Redis
-
-### **Cloud & DevOps**
-
-Google Cloud Run • Docker • Vercel • Netlify • GitHub Actions
-
-### **Data & Analytics**
-
-Pandas • NumPy • Scikit-learn • Power BI • DuckDB · Matplotlib
-
-### **Herramientas & Plataformas**
-
-VSCode • GitHub • Jira • Siebel • Salesforce · Notion · Linux
+<table width="100%">
+  <tr>
+    <td width="30%"><strong>Lenguajes</strong></td>
+    <td>Python • JavaScript • TypeScript • SQL • R • HTML5 • CSS3</td>
+  </tr>
+  <tr>
+    <td><strong>Backend &amp; APIs</strong></td>
+    <td>Django • FastAPI • Node.js/Express • REST APIs</td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>React • Vue.js 3 • TypeScript • Astro • Next.js • Tailwind CSS</td>
+  </tr>
+  <tr>
+    <td><strong>Bases de Datos &amp; Caché</strong></td>
+    <td>PostgreSQL • MongoDB • DuckDB • Redis • SQLite</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud, DevOps &amp; Infra</strong></td>
+    <td>Google Cloud Run • Docker • GitHub Actions • Linux • Vercel • Netlify</td>
+  </tr>
+  <tr>
+    <td><strong>Análisis de Datos</strong></td>
+    <td>Pandas • NumPy • Scikit-learn • Power BI • Matplotlib</td>
+  </tr>
+</table>
 
 ---
 
-## 📊 GitHub Analytics
+## 🚀 Proyectos Destacados
 
-<div align="center">
+### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
+> **Plataforma de Ingeniería de Datos Financieros**
 
-<img src="https://github-readme-stats.vercel.app/api?username=medalcode&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medalcode&layout=compact&theme=radical&hide_border=true&langs_count=8" height="165" alt="Top Languages" />
+Arquitectura modular diseñada bajo el principio *"Lightweight Ingest, Heavy Analysis"*, optimizada para eliminar la fricción entre la ingesta de datos de mercado y el análisis cuantitativo.
 
-</div>
+*   **Características clave:** Preservación de datos en capas Bronze (Parquet), queries OLAP ultra rápidas en local, y cálculos vectorizados de métricas clave (NPV, IRR, VaR).
+*   **Stack:** `Python` · `FastAPI` · `DuckDB` · `Parquet` · `Docker` · `Apache Kafka`
 
-<div align="center">
-<img src="https://nirzak-streak-stats.vercel.app/?user=medalcode&theme=radical&hide_border=true" alt="GitHub Streak" />
-</div>
+---
+
+### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
+> **Sistema Inteligente de Seguimiento de Candidatos (ATS)**
+
+ATS moderno potenciado por Inteligencia Artificial que analiza currículums en formato PDF, los clasifica semánticamente y genera resúmenes accionables.
+
+*   **Características clave:** Parsing avanzado de documentos, motores de ranking basados en embeddings semánticos y procesamiento en tiempo real para reclutadores.
+*   **Stack:** `Python` · `FastAPI` · `React` · `PostgreSQL` · `LLMs / OpenAI API`
+
+---
+
+### 📊 [GitSpy](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app)
+> **Middleware API & Cache Layer para GitHub Analytics**
+
+Middleware intermedio diseñado para optimizar, cachear y auditar consultas de rate-limiting hacia la API de GitHub, permitiendo una observabilidad total de eventos y repositorios.
+
+*   **Características clave:** Cola de eventos asíncronos, almacenamiento en caché inteligente con Redis, y rate-limiting configurable por cliente.
+*   **Stack:** `TypeScript` · `Node.js` · `Redis` · `Docker` · `Jest`
+
+---
+
+### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
+> **Suite de Herramientas de Red 100% Client-Side**
+
+Una colección de herramientas profesionales para administradores de redes y soporte operativo que se ejecutan enteramente en el cliente, priorizando la velocidad y privacidad.
+
+*   **Características clave:** Calculadora avanzada de VLSM, análisis de direccionamiento IP de subredes, lookup de DNS y generador de plantillas de configuración Cisco.
+*   **Stack:** `JavaScript (ES6+)` · `HTML5` · `CSS3 (Vanilla)` · `Netlify`
+
+---
+
+### 📂 Otros Proyectos del Portafolio
+
+<details>
+<summary>⚡ Ver catálogo completo de proyectos desarrollados (Click para expandir)</summary>
+<br />
+
+| Proyecto | Descripción | Stack | Recursos |
+| :--- | :--- | :--- | :--- |
+| **Argos** | Bot de trading algorítmico profesional para Binance Spot con Triple Filtro y dashboard integrado. | `Python`, `Docker`, `Linux` | [Código](https://github.com/Medalcode/Argos) |
+| **Myna** | Plataforma de minería de datos, clustering, limpieza y visualización descriptiva de datasets. | `Python`, `Django`, `Pandas` | [Código](https://github.com/Medalcode/Myna) · [Demo](https://myna-gamma.vercel.app) |
+| **MatrixCalc** | Calculadora de matrices y álgebra lineal en la nube con motor NumPy y visualización paso a paso. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-frontend-541716295092.us-central1.run.app) |
+| **Skema** | Pipeline de triaje y clasificación automática de requerimientos utilizando clasificadores inteligentes. | `Python`, `FastAPI` | [Código](https://github.com/Medalcode/Skema) |
+| **Pathwise** | Extensión de Chrome y dashboard con IA para la búsqueda activa y seguimiento de ofertas de empleo. | `JavaScript`, `Python`, `Chrome API` | [Código](https://github.com/Medalcode/Pathwise) · [Demo](https://panoptes-nine.vercel.app) |
+| **AutoKanban** | Visualizador de archivos de bitácora markdown locales/remotos transformados a tableros Kanban. | `JavaScript`, `HTML/CSS` | [Código](https://github.com/Medalcode/AutoKanban) |
+| **Colabb** | Terminal moderna para Linux potenciada con IA escrita en C++ para máximo rendimiento. | `C++`, `CMake`, `Linux` | [Código](https://github.com/Medalcode/Colabb) |
+| **Kitsune** | Plantilla REST API lista para producción con autenticación JWT y base de datos asíncrona. | `FastAPI`, `Docker`, `PostgreSQL` | [Código](https://github.com/Medalcode/Kitsune) |
+| **Toallaalacarta** | E-commerce real desarrollado con Astro y headless Shopify, optimizado para conversión. | `Astro`, `TypeScript`, `Tailwind` | [Código](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app) |
+
+</details>
 
 ---
 
 ## 💼 Experiencia Profesional Relevante
 
-| Empresa | Rol | Período |
-|---|---|---|
-| **Toallaalacarta** | Co-Fundador & Gestor de Operaciones Digitales | Sep 2023 – Jul 2025 |
-| **VTR Comunicaciones** | Ejecutivo Senior Soporte Back Office | Ago 2009 – Ene 2023 |
-| **KonectaChile** | Ejecutivo de Mesa de Ayuda | Ene 2007 – Jul 2009 |
-| **Anovo** | Técnico de Reparación de Equipos Móviles | Ene 2003 – Nov 2006 |
-
-> En VTR: monitoreo proactivo de servicios, análisis de KPIs con tablas dinámicas, recolección y procesamiento de datos desde múltiples fuentes.
+| Empresa / Proyecto | Rol | Período | Logros Clave |
+| :--- | :--- | :--- | :--- |
+| **Toallaalacarta** | Co-Fundador & Gestor de Operaciones Digitales | 2023 - 2025 | Implementación del e-commerce, integración de APIs de pago y optimización del funnel publicitario. |
+| **VTR Comunicaciones** | Ejecutivo Senior Soporte Back Office | 2009 - 2023 | Monitoreo y continuidad de servicios críticos, automatización de KPIs de red y procesamiento de bases de datos operativas. |
+| **Konecta Chile** | Ejecutivo de Soporte de Sistemas | 2007 - 2009 | Diagnóstico y resolución de incidencias en telecomunicaciones, aprovisionamiento de hardware y soporte de sistemas. |
+| **Anovo** | Técnico de Reparación de Equipos Móviles | 2003 - 2006 | Resolución a nivel de hardware y firmware en dispositivos móviles complejos y gestión del flujo de órdenes técnicas. |
 
 ---
 
 ## 🎓 Formación & Certificaciones
 
-| Institución | Título / Certificación | Período |
-|---|---|---|
-| **INACAP** | Analista Programador | 2023 – 2024 |
-| **INACAP** | Desarrollo Full Stack | 2024 – 2025 |
-| **INACAP** | Arquitectura Cloud | 2024 – 2025 |
-| **INACAP** | Diseño y Gestión de Bases de Datos | 2023 – 2024 |
-| **INACAP** | Diseño Ágil de Sistemas | 2023 – 2024 |
-| **DUOC UC** | Administración y Soporte de Sistemas | 2017 – 2018 |
-| **Lic. Industrial Hardware** | Técnico en Telecomunicaciones | 1999 – 2002 |
+*   **Analista Programador / Ingeniería en Informática** - *INACAP* (2023 - 2025)
+*   **Diplomado en Desarrollo Full Stack** - *INACAP*
+*   **Diplomado en Arquitectura Cloud** - *INACAP*
+*   **Diplomado en Diseño y Gestión de Bases de Datos** - *INACAP*
+*   **Diplomado en Diseño Ágil de Sistemas** - *INACAP*
+*   **Administración y Soporte de Sistemas** - *DUOC UC*
 
 ---
 
-## 🎯 Lo Que Busco
-
-Estoy abierto a roles donde pueda aportar mi combinación única de:
-
-- **Experiencia operativa real** en grandes empresas de telecomunicaciones
-- **Capacidad técnica** en desarrollo Full Stack y análisis de datos
-- **Mentalidad orientada a soluciones**: construyo software que resuelve problemas que conozco de primera mano
-
-**Abierto a**: Posiciones de desarrollador junior/mid, roles de soporte técnico avanzado, data analyst, y consulting técnico.
-
----
-
-## 📫 Contacto
-
-- 🌐 **Portfolio**: [medalcode.vercel.app](https://medalcode.vercel.app)
-- 💼 **LinkedIn**: [linkedin.com/in/medalcode](https://linkedin.com/in/medalcode)
-- 📧 **Email**: [jonatthan.medalla@gmail.com](mailto:jonatthan.medalla@gmail.com)
-- 📍 **Ubicación**: Santiago, Chile
-- 📞 **Teléfono**: +569 63414627
-
----
+## 📊 Estadísticas de Actividad
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=medalcode&show_icons=true&theme=radical&hide_border=true&count_private=true" height="180" alt="GitHub Stats" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medalcode&layout=compact&theme=radical&hide_border=true&langs_count=7" height="180" alt="Top Languages" />
+</div>
 
-### ⚡ Fun Fact
-
-No me gusta el chocolate ni la palta. Soy de otro tejido. 🧵
+<div align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=medalcode&theme=radical&hide_border=true" alt="GitHub Streak" />
+</div>
 
 ---
 
-<sub>Última actualización: Marzo 2026 | Construido con ❤️ y mucho ☕</sub>
+## 📫 Conectemos
 
+*   🌐 **Portafolio:** [medalcode.dev](https://medalcode.vercel.app)
+*   💼 **LinkedIn:** [/in/medalcode](https://linkedin.com/in/medalcode)
+*   📧 **Correo:** [jonatthan.medalla@gmail.com](mailto:jonatthan.medalla@gmail.com)
+*   📍 **Ubicación:** Santiago, Chile
+
+<br />
+
+<div align="center">
+  <sub>Última actualización: Mayo 2026 | Construido con ❤️ y automatizado con Medalcode-Agent</sub>
 </div>

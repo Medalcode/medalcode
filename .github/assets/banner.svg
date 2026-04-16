@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#03050a" />
+    </linearGradient>
+
+    <!-- Text Gradient for Name -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />   <!-- Light Blue -->
+      <stop offset="50%" stop-color="#a78bfa" />  <!-- Light Purple -->
+      <stop offset="100%" stop-color="#f472b6" /> <!-- Pink/Rose -->
+    </linearGradient>
+
+    <!-- Accent Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Grid Overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Decorative Abstract Shapes (Glowing Orbs and Lines) -->
+  <circle cx="750" cy="50" r="100" fill="url(#accent-grad)" filter="url(#glow)" />
+  <circle cx="50" cy="180" r="60" fill="url(#accent-grad)" filter="url(#glow)" />
+  
+  <!-- Diagonal Design Accents -->
+  <path d="M 680 -10 L 730 -10 L 630 210 L 580 210 Z" fill="#8b5cf6" fill-opacity="0.05" />
+  <path d="M 710 -10 L 760 -10 L 660 210 L 610 210 Z" fill="#3b82f6" fill-opacity="0.08" />
+
+  <!-- Coding Grid dots on right -->
+  <g fill="#475569" opacity="0.3">
+    <circle cx="720" cy="110" r="2" />
+    <circle cx="740" cy="110" r="2" />
+    <circle cx="760" cy="110" r="2" />
+    <circle cx="720" cy="130" r="2" />
+    <circle cx="740" cy="130" r="2" />
+    <circle cx="760" cy="130" r="2" />
+    <circle cx="720" cy="150" r="2" />
+    <circle cx="740" cy="150" r="2" />
+    <circle cx="760" cy="150" r="2" />
+  </g>
+
+  <!-- Main Content Group -->
+  <g transform="translate(60, 0)">
+    <!-- Subtitle / Tagline above name -->
+    <text x="0" y="65" 
+          fill="#38bdf8" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="13" 
+          font-weight="700" 
+          letter-spacing="3" 
+          opacity="0.9">
+      IT OPERATIONS &amp; SOFTWARE ARCHITECTURE
+    </text>
+
+    <!-- Name with Gradient -->
+    <text x="0" y="110" 
+          fill="url(#text-grad)" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="38" 
+          font-weight="800" 
+          letter-spacing="1">
+      JONATTHAN MEDALLA
+    </text>
+
+    <!-- Title Subtitle -->
+    <text x="0" y="145" 
+          fill="#e2e8f0" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="18" 
+          font-weight="500" 
+          letter-spacing="0.5">
+      Reliability &amp; Data-Driven Software Engineer
+    </text>
+
+    <!-- Tech tags or custom label below -->
+    <text x="0" y="170" 
+          fill="#94a3b8" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="13" 
+          font-weight="400" 
+          letter-spacing="1">
+      Python • Django • React • Node.js • SQL • Docker
+    </text>
+  </g>
+
+  <!-- Status indicator / Online badge on top right -->
+  <g transform="translate(730, 25)">
+    <circle cx="0" cy="0" r="5" fill="#10b981" />
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="r" values="5;12;5" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
