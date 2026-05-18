@@ -1,0 +1,21 @@
+# Never commit CV files — host via GitHub Releases
+CV_*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Generated
+.github/assets/
+docs/images/

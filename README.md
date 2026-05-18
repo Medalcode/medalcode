@@ -6,7 +6,7 @@
 
 _15+ años asegurando continuidad operativa en telecomunicaciones. Hoy construyo software que automatiza, analiza y resuelve problemas reales._
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-blueviolet?style=flat-square)](https://medalcode.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-FE7A16?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:jonatthan.medalla@gmail.com)
+[![CI](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml/badge.svg)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml) [![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-blueviolet?style=flat-square)](https://medalcode.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/medalcode) [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-FE7A16?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/488543) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:jonatthan.medalla@gmail.com) [![Download CV](https://img.shields.io/badge/Download-CV-4285F4?style=flat-square&logo=googledrive)](https://github.com/Medalcode/medalcode/releases/latest/download/CV_2026_S.pdf)
 
 </div>
 
