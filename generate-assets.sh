@@ -121,7 +121,7 @@ optimize_images() {
     fi
     
     # Optimizar PNGs
-    find .github/assets -name "*.png" -type f | while read img; do
+    find .github/assets -name "*.png" -type f | while read -r img; do
         echo -e "${YELLOW}Optimizando: $img${NC}"
         convert "$img" -strip -quality 85 "$img.tmp" && mv "$img.tmp" "$img"
     done
@@ -208,20 +208,30 @@ check_missing_assets() {
     echo -e "${BLUE}🔍 Verificando assets en proyectos...${NC}"
     echo ""
     
-    local projects=("Nidus" "GitSpy" "Argos" "MatrixCalc" "Skema" "FinLogic")
+    # Extraer dinámicamente desde el README.md
+    local main_projects
+    mapfile -t main_projects < <(grep -oP '### [^\[]+\[\K[^\]]+' README.md)
     
+    local other_projects
+    mapfile -t other_projects < <(awk '/### 📂 Otros Proyectos del Portafolio/,/<\/details>/' README.md | awk -F'|' '/\| \*\*/ {print $2}' | sed 's/\*\*//g' | awk '{$1=$1;print}')
+    
+    local projects=("${main_projects[@]}" "${other_projects[@]}")
+    
+    shopt -s nullglob
     for project in "${projects[@]}"; do
         echo -e "${YELLOW}Proyecto: ${project}${NC}"
         
         # Verificar screenshot
-        if ls .github/assets/screenshots/${project,,}* 1> /dev/null 2>&1; then
+        local sc_files=(.github/assets/screenshots/"${project,,}"*)
+        if [ ${#sc_files[@]} -gt 0 ]; then
             echo -e "  ${GREEN}✓${NC} Screenshot encontrado"
         else
             echo -e "  ${RED}✗${NC} Screenshot faltante"
         fi
         
         # Verificar diagrama
-        if ls .github/assets/diagrams/${project,,}* 1> /dev/null 2>&1; then
+        local diag_files=(.github/assets/diagrams/"${project,,}"*)
+        if [ ${#diag_files[@]} -gt 0 ]; then
             echo -e "  ${GREEN}✓${NC} Diagrama encontrado"
         else
             echo -e "  ${RED}✗${NC} Diagrama faltante"
@@ -229,6 +239,7 @@ check_missing_assets() {
         
         echo ""
     done
+    shopt -u nullglob
 }
 
 # Main script

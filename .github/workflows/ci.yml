@@ -28,8 +28,10 @@ jobs:
             exit 1
           fi
 
-      - name: Validate README links
-        run: |
-          if grep -qP '\[.*\]\(https?://' README.md; then
-            echo "README contains external links"
-          fi
+      - name: ShellCheck
+        uses: ludeeus/action-shellcheck@master
+
+      - name: Validate Links
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          args: --verbose --no-progress './README.md'

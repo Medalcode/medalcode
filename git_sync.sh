@@ -3,8 +3,18 @@
 
 set -e
 
-# Configurar fecha objetivo: 16 de Abril de 2026
+# Configurar fecha objetivo: 16 de Abril de 2026 (por defecto)
 TARGET_DATE="2026-04-16T18:00:00"
+
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --date|-d) TARGET_DATE="$2"; shift ;;
+        *) echo "Parámetro desconocido: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+echo "Usando fecha objetivo: $TARGET_DATE"
 
 # Detectar rama actual
 CURRENT_BRANCH=$(git branch --show-current)

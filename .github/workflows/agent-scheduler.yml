@@ -1,0 +1,37 @@
+name: Medalcode Agent Tasks
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # El día 1 de cada mes
+  workflow_dispatch: # Permite ejecución manual
+
+jobs:
+  agent-tasks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Last Updated Date
+        run: |
+          # Extraer fecha en español (ej. Junio 2026)
+          CURRENT_DATE=$(LC_TIME=es_ES.UTF-8 date '+%B %Y' | awk '{print toupper(substr($0,1,1))substr($0,2)}')
+          # Reemplazar usando los marcadores HTML
+          sed -i -E "s/(<!-- DATE_START -->).*?(<!-- DATE_END -->)/\1${CURRENT_DATE}\2/g" README.md
+
+      - name: Audit Assets
+        run: |
+          chmod +x generate-assets.sh
+          ./generate-assets.sh check || echo "Asset audit completed"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Medalcode-Agent"
+          git config --global user.email "jonatthan.medalla@gmail.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs(agent): actualizar fecha del perfil a ${CURRENT_DATE}"
+            git push
+          else
+            echo "No changes to commit."
+          fi

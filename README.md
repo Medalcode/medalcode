@@ -171,5 +171,5 @@ Una colección de herramientas profesionales para administradores de redes y sop
 <br />
 
 <div align="center">
-  <sub>Última actualización: Mayo 2026 | Construido con ❤️ y automatizado con Medalcode-Agent</sub>
+  <sub>Última actualización: <!-- DATE_START -->Junio 2026<!-- DATE_END --> | Construido con ❤️ y automatizado con Medalcode-Agent</sub>
 </div>
