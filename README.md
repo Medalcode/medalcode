@@ -7,7 +7,7 @@
 <div align="center">
 
 # Jonatthan Medalla Aliste
-### Reliability-focused Software Engineer & Data-driven Developer
+### Software Engineer · Data Engineer · AI-Enhanced Development
 
 [![CI](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml/badge.svg)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml)
 [![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-60a5fa?style=flat-square&logo=google-chrome&logoColor=white)](https://medalcode.vercel.app)
@@ -63,6 +63,17 @@ Soy un ingeniero de software con una base sólida de **más de 15 años de traye
 
 ## 🚀 Proyectos Destacados
 
+### 🧠 [mcp-servers](https://github.com/Medalcode/mcp-servers)
+> **Unified MCP Servers Monorepo — Knowledge-Graph Enhanced**
+
+Arquitectura unificada de servidores MCP (Model Context Protocol) desplegados sin Docker, potenciados por knowledge graphs generados con graphify. Orquesta 7 servidores en puertos locales (Route, GitHub, Filesystem, Memory, Database, Email, TaskTracker) para agentes de IA.
+
+*   **Innovación:** Cada repositorio del ecosistema tiene su `graphify-out/` con nodos y aristas que permiten a los agentes AI comprender la arquitectura sin escanear archivos, reduciendo drásticamente el consumo de tokens.
+*   **Integración find-skills:** Skills.sh integrado para mejorar código con patrones de diseño, testing y Tailwind v4.
+*   **Stack:** `Python` · `MCP` · `FastAPI` · `graphify` · `skills.sh`
+
+---
+
 ### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
 > **Plataforma de Ingeniería de Datos Financieros**
 
@@ -111,6 +122,8 @@ Una colección de herramientas profesionales para administradores de redes y sop
 
 | Proyecto | Descripción | Stack | Recursos |
 | :--- | :--- | :--- | :--- |
+| **Lucker** | Motor de estadísticas y predicción para Loto con análisis de frecuencia, atraso estructural y optimización de pesos vía backtesting. | `Python`, `Flask`, `Pandas`, `NumPy` | [Código](https://github.com/Medalcode/Lucker) |
+| **PortfolioMedalcode** | Portfolio personal con Astro + Preact + Tailwind v4, i18n, y knowledge graph para agentes AI. | `Astro`, `Preact`, `TypeScript`, `Tailwind v4` | [Código](https://github.com/Medalcode/PortfolioMedalcode) · [Demo](https://medalcode.vercel.app) |
 | **Argos** | Bot de trading algorítmico profesional para Binance Spot con Triple Filtro y dashboard integrado. | `Python`, `Docker`, `Linux` | [Código](https://github.com/Medalcode/Argos) |
 | **Myna** | Plataforma de minería de datos, clustering, limpieza y visualización descriptiva de datasets. | `Python`, `Django`, `Pandas` | [Código](https://github.com/Medalcode/Myna) · [Demo](https://myna-gamma.vercel.app) |
 | **MatrixCalc** | Calculadora de matrices y álgebra lineal en la nube con motor NumPy y visualización paso a paso. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-frontend-541716295092.us-central1.run.app) |
@@ -171,5 +184,5 @@ Una colección de herramientas profesionales para administradores de redes y sop
 <br />
 
 <div align="center">
-  <sub>Última actualización: <!-- DATE_START -->Junio 2026<!-- DATE_END --> | Construido con ❤️ y automatizado con Medalcode-Agent</sub>
+  <sub>Última actualización: <!-- DATE_START -->Julio 2026<!-- DATE_END --> | Construido con ❤️ y automatizado con Medalcode-Agent</sub>
 </div>

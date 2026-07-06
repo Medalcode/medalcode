@@ -3,8 +3,8 @@
 
 set -e
 
-# Configurar fecha objetivo: 16 de Abril de 2026 (por defecto)
-TARGET_DATE="2026-04-16T18:00:00"
+# Configurar fecha objetivo: 6 de Julio de 2026 (por defecto)
+TARGET_DATE="2026-07-06T12:00:00"
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
