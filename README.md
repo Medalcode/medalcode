@@ -23,11 +23,11 @@
 
 ## 👨‍💻 Sobre Mí
 
-Soy un ingeniero de software con una base sólida de **más de 15 años de trayectoria en operaciones IT de alta disponibilidad y telecomunicaciones**. Mi transición hacia el desarrollo Full Stack y la ingeniería de datos combina lo mejor de dos mundos: la capacidad técnica para escribir código moderno y eficiente, y la mentalidad operativa para garantizar que los sistemas funcionen bajo presión en producción.
+Soy un Analista Programador e Ingeniero en Informática (cursando último semestre en INACAP) con una base sólida de **más de 22 años de trayectoria en TI, operaciones y telecomunicaciones**. Combino desarrollo Full Stack moderno (Python, React, Node.js, Django) con ingeniería y análisis de datos (SQL, Power BI, Power Query) para construir software escalable, automatizado y centrado en datos.
 
-*   **Enfoque de Ingeniería:** Construir herramientas estables que automaticen flujos complejos, procesen datos a gran escala y resuelvan problemas operativos reales.
-*   **ADN de Operaciones:** Monitoreo, diagnóstico de causa raíz y resiliencia de infraestructura (experiencia real liderando soporte técnico en VTR y Konecta).
-*   **Educación y Metodologías:** Analista Programador e Ingeniero en Informática (INACAP), con certificaciones en Cloud Architecture, Diseño de Bases de Datos y Desarrollo Ágil.
+*   **Enfoque de Ingeniería:** Construir soluciones estables que automaticen procesos manuales, optimicen la consistencia de datos y resuelvan problemas operativos reales.
+*   **Logro Destacado:** Durante mi práctica en **Soprole**, lideré la migración de 22 reportes críticos desde Excel a dashboards interactivos en Power BI, reduciendo drásticamente la deuda técnica del área de Consistencia de Datos.
+*   **Experiencia Operativa:** Gestión de soporte de sistemas y conectividad corporativa en Entel Connect, VTR y Konecta Chile.
 
 ---
 
@@ -143,10 +143,11 @@ Una colección de herramientas profesionales para administradores de redes y sop
 
 | Empresa / Proyecto | Rol | Período | Logros Clave |
 | :--- | :--- | :--- | :--- |
-| **Toallaalacarta** | Co-Fundador & Gestor de Operaciones Digitales | 2023 - 2025 | Implementación del e-commerce, integración de APIs de pago y optimización del funnel publicitario. |
-| **VTR Comunicaciones** | Ejecutivo Senior Soporte Back Office | 2009 - 2023 | Monitoreo y continuidad de servicios críticos, automatización de KPIs de red y procesamiento de bases de datos operativas. |
-| **Konecta Chile** | Ejecutivo de Soporte de Sistemas | 2007 - 2009 | Diagnóstico y resolución de incidencias en telecomunicaciones, aprovisionamiento de hardware y soporte de sistemas. |
-| **Anovo** | Técnico de Reparación de Equipos Móviles | 2003 - 2006 | Resolución a nivel de hardware y firmware en dispositivos móviles complejos y gestión del flujo de órdenes técnicas. |
+| **Entel Connect** | Ejecutivo Help Desk | 03/2026 – 06/2026 | Atención y resolución de requerimientos de clientes corporativos (SLA), diagnóstico en plataformas de conectividad y documentación de base de conocimiento. |
+| **Soprole** | Practicante Analista Programador | 03/2025 – 06/2025 | Migración crítica de 22 reportes Excel a Power BI, automatización de procesos manuales y modelado de datos con Power Query y SQL. |
+| **Toalla a la Carta** | Co-Fundador & Gestor Digital | 09/2023 – 02/2025 | Desarrollo del e-commerce web, estrategia de publicidad digital (Google Ads, RRSS) y reducción de tiempos de entrega en un 20%. |
+| **VTR Comunicaciones** | Ejecutivo Senior Soporte BackOffice | 08/2009 – 01/2023 | Monitoreo proactivo de redes, análisis de datos multifuente y optimización de KPIs operacionales mediante SQL y tablas dinámicas. |
+| **Konecta Chile** | Ejecutivo de Soporte de Sistemas | 01/2007 – 07/2009 | Gestión Service Desk, administración Microsoft 365, soporte técnico y mantenimiento correctivo/preventivo de sistemas. |
 
 ---
 
@@ -166,12 +167,20 @@ docker build -t medalcode-qa . && docker run --rm medalcode-qa
 
 ## 🎓 Formación & Certificaciones
 
-*   **Analista Programador / Ingeniería en Informática** - *INACAP* (2023 - 2025)
-*   **Diplomado en Desarrollo Full Stack** - *INACAP*
-*   **Diplomado en Arquitectura Cloud** - *INACAP*
-*   **Diplomado en Diseño y Gestión de Bases de Datos** - *INACAP*
-*   **Diplomado en Diseño Ágil de Sistemas** - *INACAP*
-*   **Administración y Soporte de Sistemas** - *DUOC UC*
+### Educación
+*   **Ingeniería en Informática** - *Instituto Profesional INACAP* (03/2023 – Actualidad, 1 semestre restante)
+*   **Analista Programador** - *Instituto Profesional INACAP* (03/2023 – 12/2024)
+*   **Técnico en Telecomunicaciones** - *Liceo Industrial Hardware* (03/1999 – 12/2002)
+
+### Certificaciones
+*   **Analysis and Visualization of Data with Power BI** - *Microsoft* (2026)
+*   **Competencias Digitales de Ofimática: Microsoft Excel** - *U.A.B* (2026)
+*   **Introducción a la Visualización de Datos** - *P.U.C* (2026)
+*   **Arquitectura Cloud** - *IP INACAP* (2025)
+*   **Desarrollo Full Stack** - *IP INACAP* (2025)
+*   **Diseño Ágil de Sistemas** - *IP INACAP* (2025)
+*   **Diseño y Gestión de Bases de Datos** - *IP INACAP* (2025)
+*   **Administración y Soporte de Sistemas** - *Duoc U.C* (2017)
 
 ---
 
