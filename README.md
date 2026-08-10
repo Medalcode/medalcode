@@ -149,6 +149,20 @@ Una colección de herramientas profesionales para administradores de redes y sop
 
 ---
 
+## 🧪 Testing & Calidad DevOps
+
+El repositorio cuenta con una suite de pruebas automatizadas (**Smoke, Unit e Integration Tests**) para validar la integridad de las herramientas y scripts automatizados, integrada con CI/CD y ejecutable en contenedores reproducibles:
+
+```bash
+# Ejecución local de la suite de pruebas
+./tests/test_scripts.sh
+
+# Ejecución reproducible en contenedor Docker
+docker build -t medalcode-qa . && docker run --rm medalcode-qa
+```
+
+---
+
 ## 🎓 Formación & Certificaciones
 
 *   **Analista Programador / Ingeniería en Informática** - *INACAP* (2023 - 2025)
