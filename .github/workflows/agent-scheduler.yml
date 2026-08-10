@@ -5,6 +5,9 @@ on:
     - cron: '0 0 1 * *' # El día 1 de cada mes
   workflow_dispatch: # Permite ejecución manual
 
+permissions:
+  contents: write
+
 jobs:
   agent-tasks:
     runs-on: ubuntu-latest
@@ -14,9 +17,14 @@ jobs:
 
       - name: Update Last Updated Date
         run: |
-          # Extraer fecha en español (ej. Junio 2026)
-          CURRENT_DATE=$(LC_TIME=es_ES.UTF-8 date '+%B %Y' | awk '{print toupper(substr($0,1,1))substr($0,2)}')
-          # Reemplazar usando los marcadores HTML
+          # Generar fecha en español de forma agnóstica al SO/locale
+          CURRENT_DATE=$(python3 -c "
+import datetime
+months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+now = datetime.datetime.now(datetime.timezone.utc)
+print(f'{months[now.month - 1]} {now.year}')
+          ")
+          echo "Fecha formateada: $CURRENT_DATE"
           sed -i -E "s/(<!-- DATE_START -->).*?(<!-- DATE_END -->)/\1${CURRENT_DATE}\2/g" README.md
 
       - name: Audit Assets
@@ -35,3 +43,4 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
