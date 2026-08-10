@@ -71,8 +71,8 @@ assert_exit_code 1 "./generate-assets.sh diagram"
 assert_exit_code 1 "./generate-assets.sh invalid_command"
 
 # Test project option parsing (-p and positional)
-assert_output_contains "Nidus" "./generate-assets.sh screenshot -p Nidus"
-assert_output_contains "nidus-*.png" "./generate-assets.sh screenshot -p Nidus"
+assert_output_contains "CodeAgent" "./generate-assets.sh screenshot -p CodeAgent"
+assert_output_contains "codeagent-*.png" "./generate-assets.sh screenshot -p CodeAgent"
 assert_output_contains "GitSpy" "./generate-assets.sh screenshot GitSpy"
 
 # Test diagram generation
@@ -91,7 +91,7 @@ fi
 # Test project audit scanner
 assert_output_contains "mcp-servers" "./generate-assets.sh check"
 assert_output_contains "finlogic" "./generate-assets.sh check"
-assert_output_contains "nidus" "./generate-assets.sh check"
+assert_output_contains "codeagent" "./generate-assets.sh check"
 assert_output_contains "privia" "./generate-assets.sh check"
 assert_output_contains "netopstoolkit" "./generate-assets.sh check"
 

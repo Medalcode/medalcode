@@ -76,13 +76,13 @@ Arquitectura unificada de servidores MCP (Model Context Protocol) potenciados po
 *   **Innovación:** Cada repositorio del ecosistema integra `graphify-out/` para dar contexto semántico directo a los agentes de IA sin escanear archivos.
 *   **Stack:** `Python` · `MCP` · `FastAPI` · `graphify` · `skills.sh`
 
-#### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
-> **Sistema Inteligente de Seguimiento de Candidatos (ATS)**
+#### 🤖 [CodeAgent](https://github.com/Medalcode/CodeAgent)
+> **Centro de Mando Avanzado para Agentes Inteligentes & Orquestación**
 
-ATS moderno potenciado por Inteligencia Artificial que analiza currículums en PDF, los clasifica semánticamente y genera resúmenes accionables.
+Plataforma completa estilo OpenCode u OpenWebUI diseñada para interactuar con repositorios de código locales y remotos, gestionar tareas complejas y orquestar agentes IA.
 
-*   **Características clave:** Parsing avanzado de documentos, ranking por embeddings semánticos y procesamiento en tiempo real.
-*   **Stack:** `Python` · `FastAPI` · `React` · `PostgreSQL` · `OpenAI API`
+*   **Características clave:** Interfaz interactiva en Streamlit, integración con `smolagents`, ejecución de herramientas y orquestación multi-agente.
+*   **Stack:** `Python` · `Streamlit` · `smolagents` · `LLMs` · `Agentic AI`
 
 #### 🛒 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app/)
 > **Plataforma E-Commerce SaaS & Integración de Pagos**

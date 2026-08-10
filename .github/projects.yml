@@ -21,22 +21,22 @@ categories:
           screenshot: .github/assets/screenshots/mcp-servers-dashboard.png
           diagram: .github/assets/diagrams/mcp-servers-architecture.mmd
 
-      - id: nidus
-        name: Nidus
-        title: Sistema Inteligente de Seguimiento de Candidatos (ATS)
-        description: ATS moderno potenciado por Inteligencia Artificial que analiza PDFs, clasifica semánticamente y genera resúmenes.
+      - id: codeagent
+        name: CodeAgent
+        title: Centro de Mando Avanzado para Agentes Inteligentes & Orquestación
+        description: Plataforma estilo OpenCode/OpenWebUI para interactuar con repositorios, gestionar tareas y orquestar agentes IA.
         status: Production
         stack:
           - Python
-          - FastAPI
-          - React
-          - PostgreSQL
-          - OpenAI
-        repo_url: https://github.com/Medalcode/Nidus
+          - Streamlit
+          - smolagents
+          - LLMs
+          - Agentic AI
+        repo_url: https://github.com/Medalcode/CodeAgent
         demo_url: null
         assets:
-          screenshot: .github/assets/screenshots/nidus-dashboard.png
-          diagram: .github/assets/diagrams/nidus-architecture.mmd
+          screenshot: .github/assets/screenshots/codeagent-dashboard.png
+          diagram: .github/assets/diagrams/codeagent-architecture.mmd
 
       - id: toallaalacarta
         name: Toallaalacarta
