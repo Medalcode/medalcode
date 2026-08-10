@@ -1,0 +1,85 @@
+# 📦 Single Source of Truth for Portfolio Projects
+# Used by generate-assets.sh, CI/CD, and Web Showcase Portal
+
+projects:
+  - id: mcp-servers
+    name: mcp-servers
+    title: Unified MCP Servers Monorepo — Knowledge-Graph Enhanced
+    description: Arquitectura unificada de servidores MCP desplegados sin Docker, potenciados por knowledge graphs generados con graphify.
+    status: Production
+    stack:
+      - Python
+      - MCP
+      - FastAPI
+      - graphify
+    repo_url: https://github.com/Medalcode/mcp-servers
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/mcp-servers-dashboard.png
+      diagram: .github/assets/diagrams/mcp-servers-architecture.mmd
+
+  - id: finlogic
+    name: FinLogic
+    title: Plataforma de Ingeniería de Datos Financieros
+    description: Arquitectura modular bajo el principio Lightweight Ingest, Heavy Analysis para análisis cuantitativo.
+    status: Production
+    stack:
+      - Python
+      - FastAPI
+      - DuckDB
+      - Parquet
+      - Docker
+    repo_url: https://github.com/Medalcode/FinLogic
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/finlogic-dashboard.png
+      diagram: .github/assets/diagrams/finlogic-architecture.mmd
+
+  - id: nidus
+    name: Nidus
+    title: Sistema Inteligente de Seguimiento de Candidatos (ATS)
+    description: ATS moderno potenciado por Inteligencia Artificial que analiza PDFs y genera resúmenes semánticos.
+    status: Production
+    stack:
+      - Python
+      - FastAPI
+      - React
+      - PostgreSQL
+      - OpenAI
+    repo_url: https://github.com/Medalcode/Nidus
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/nidus-dashboard.png
+      diagram: .github/assets/diagrams/nidus-architecture.mmd
+
+  - id: gitspy
+    name: GitSpy
+    title: Middleware API & Cache Layer para GitHub Analytics
+    description: Middleware intermedio para optimizar y cachear consultas de rate-limiting hacia la API de GitHub.
+    status: Production
+    stack:
+      - TypeScript
+      - Node.js
+      - Redis
+      - Express
+    repo_url: https://github.com/Medalcode/GitSpy
+    demo_url: https://git-spy-tau.vercel.app
+    assets:
+      screenshot: .github/assets/screenshots/gitspy-dashboard.png
+      diagram: .github/assets/diagrams/gitspy-architecture.mmd
+
+  - id: netopstoolkit
+    name: NetOpsToolkit
+    title: Suite de Automatización de Operaciones de Red
+    description: Herramientas de diagnóstico, monitoreo y gestión de infraestructura de telecomunicaciones.
+    status: Maintained
+    stack:
+      - Python
+      - Linux
+      - Bash
+      - REST APIs
+    repo_url: https://github.com/Medalcode/NetOpsToolkit
+    demo_url: https://netops-toolkit.netlify.app
+    assets:
+      screenshot: .github/assets/screenshots/netopstoolkit-dashboard.png
+      diagram: .github/assets/diagrams/netopstoolkit-architecture.mmd

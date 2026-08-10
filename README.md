@@ -10,6 +10,7 @@
 ### Software Engineer · Data Engineer · AI-Enhanced Development
 
 [![CI](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml/badge.svg)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml)
+[![QA Tests](https://img.shields.io/badge/QA%20Tests-17%2F17%20Passing-success?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/Medalcode/medalcode/actions/workflows/ci.yml)
 [![Portfolio](https://img.shields.io/badge/Portfolio-medalcode.dev-60a5fa?style=flat-square&logo=google-chrome&logoColor=white)](https://medalcode.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-a78bfa?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/medalcode)
 [![Stack Overflow](https://img.shields.io/badge/StackOverflow-Profile-f472b6?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/488543)

@@ -229,16 +229,20 @@ check_missing_assets() {
     echo -e "${BLUE}🔍 Verificando assets en proyectos...${NC}"
     echo ""
     
-    if [ ! -f README.md ]; then
-        echo -e "${RED}Error: README.md no encontrado${NC}"
+    local projects_list=""
+    if [ -f .github/projects.yml ]; then
+        echo -e "${GREEN}📄 Leyendo manifiesto declarativo .github/projects.yml${NC}"
+        projects_list=$(grep -E '^[[:space:]]*name:' .github/projects.yml 2>/dev/null | sed 's/.*name:[[:space:]]*//' || true)
+    elif [ -f README.md ]; then
+        echo -e "${YELLOW}📄 Leyendo encabezados desde README.md${NC}"
+        projects_list=$(grep '^### ' README.md 2>/dev/null | sed -E -n 's/### [^[]*\[([^]]+)\].*/\1/p' || true)
+    else
+        echo -e "${RED}Error: Ni .github/projects.yml ni README.md fueron encontrados${NC}"
         return 1
     fi
     
-    local projects_list
-    projects_list=$(grep '^### ' README.md 2>/dev/null | sed -E -n 's/### [^[]*\[([^]]+)\].*/\1/p' || true)
-    
     if [ -z "$projects_list" ]; then
-        echo -e "${YELLOW}No se detectaron proyectos formateados en README.md${NC}"
+        echo -e "${YELLOW}No se detectaron proyectos configurados${NC}"
         return 0
     fi
     
