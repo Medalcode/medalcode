@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- **Architecture Decision Records (ADRs)**: Added `docs/adr/0001-agent-facade-pattern.md`, `0002-graphify-knowledge-graph.md`, and `0003-containerized-test-suite.md`.
+- **Architecture Decision Records (ADRs)**: Added `docs/adr/0001-agent-facade-pattern.md`, `0002-graphify-knowledge-graph.md`, `0003-containerized-test-suite.md`, and `0004-astro-ecosystem-web-portal.md`.
 - **Automated Test Suite**: Integrated `tests/test_scripts.sh` providing Unit, Integration, Smoke, and Regression tests for shell scripts.
 - **GitHub Actions Integration**: Added QA test execution step to `.github/workflows/ci.yml`.
 - **Reproducible Docker Support**: Added lightweight `Dockerfile` and `.dockerignore` for containerized QA test execution.
