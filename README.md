@@ -62,78 +62,110 @@ Soy un Analista Programador e Ingeniero en Informática (cursando último semest
 
 ---
 
-## 🚀 Proyectos Destacados
+## 🚀 Proyectos Destacados (Arquitectura 3×3)
 
-### 🧠 [mcp-servers](https://github.com/Medalcode/mcp-servers)
+---
+
+### 💻 1. Desarrollo Software & Sistemas IA
+
+#### 🧠 [mcp-servers](https://github.com/Medalcode/mcp-servers)
 > **Unified MCP Servers Monorepo — Knowledge-Graph Enhanced**
 
-Arquitectura unificada de servidores MCP (Model Context Protocol) desplegados sin Docker, potenciados por knowledge graphs generados con graphify. Orquesta 7 servidores en puertos locales (Route, GitHub, Filesystem, Memory, Database, Email, TaskTracker) para agentes de IA.
+Arquitectura unificada de servidores MCP (Model Context Protocol) potenciados por Knowledge Graphs generados con Graphify para orquestación de agentes de IA.
 
-*   **Innovación:** Cada repositorio del ecosistema tiene su `graphify-out/` con nodos y aristas que permiten a los agentes AI comprender la arquitectura sin escanear archivos, reduciendo drásticamente el consumo de tokens.
-*   **Integración find-skills:** Skills.sh integrado para mejorar código con patrones de diseño, testing y Tailwind v4.
+*   **Innovación:** Cada repositorio del ecosistema integra `graphify-out/` para dar contexto semántico directo a los agentes de IA sin escanear archivos.
 *   **Stack:** `Python` · `MCP` · `FastAPI` · `graphify` · `skills.sh`
 
----
-
-### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
-> **Plataforma de Ingeniería de Datos Financieros**
-
-Arquitectura modular diseñada bajo el principio *"Lightweight Ingest, Heavy Analysis"*, optimizada para eliminar la fricción entre la ingesta de datos de mercado y el análisis cuantitativo.
-
-*   **Características clave:** Preservación de datos en capas Bronze (Parquet), queries OLAP ultra rápidas en local, y cálculos vectorizados de métricas clave (NPV, IRR, VaR).
-*   **Stack:** `Python` · `FastAPI` · `DuckDB` · `Parquet` · `Docker` · `Apache Kafka`
-
----
-
-### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
+#### 🤖 [Nidus](https://github.com/Medalcode/Nidus)
 > **Sistema Inteligente de Seguimiento de Candidatos (ATS)**
 
-ATS moderno potenciado por Inteligencia Artificial que analiza currículums en formato PDF, los clasifica semánticamente y genera resúmenes accionables.
+ATS moderno potenciado por Inteligencia Artificial que analiza currículums en PDF, los clasifica semánticamente y genera resúmenes accionables.
 
-*   **Características clave:** Parsing avanzado de documentos, motores de ranking basados en embeddings semánticos y procesamiento en tiempo real para reclutadores.
-*   **Stack:** `Python` · `FastAPI` · `React` · `PostgreSQL` · `LLMs / OpenAI API`
+*   **Características clave:** Parsing avanzado de documentos, ranking por embeddings semánticos y procesamiento en tiempo real.
+*   **Stack:** `Python` · `FastAPI` · `React` · `PostgreSQL` · `OpenAI API`
 
----
+#### 🛒 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app/)
+> **Plataforma E-Commerce SaaS & Integración de Pagos**
 
-### 📊 [GitSpy](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app)
-> **Middleware API & Cache Layer para GitHub Analytics**
+E-commerce real en producción con catálogo dinámico, panel administrativo de órdenes, emails transaccionales e integración de pasarelas de pago.
 
-Middleware intermedio diseñado para optimizar, cachear y auditar consultas de rate-limiting hacia la API de GitHub, permitiendo una observabilidad total de eventos y repositorios.
-
-*   **Características clave:** Cola de eventos asíncronos, almacenamiento en caché inteligente con Redis, y rate-limiting configurable por cliente.
-*   **Stack:** `TypeScript` · `Node.js` · `Redis` · `Docker` · `Jest`
+*   **Características clave:** Astro 5 con arquitectura de islas, Shopify Storefront API, backend en Appwrite, Transbank Webpay y PayPal.
+*   **Stack:** `Astro 5` · `TypeScript` · `Shopify API` · `Appwrite` · `Tailwind CSS`
 
 ---
 
-### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
-> **Suite de Herramientas de Red 100% Client-Side**
+### 📊 2. Análisis & Ingeniería de Datos
 
-Una colección de herramientas profesionales para administradores de redes y soporte operativo que se ejecutan enteramente en el cliente, priorizando la velocidad y privacidad.
+#### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
+> **Plataforma de Ingeniería de Datos Financieros**
 
-*   **Características clave:** Calculadora avanzada de VLSM, análisis de direccionamiento IP de subredes, lookup de DNS y generador de plantillas de configuración Cisco.
-*   **Stack:** `JavaScript (ES6+)` · `HTML5` · `CSS3 (Vanilla)` · `Netlify`
+Arquitectura modular diseñada bajo el principio *"Lightweight Ingest, Heavy Analysis"*, optimizada para eliminar la fricción entre ingesta y análisis cuantitativo.
+
+*   **Características clave:** Preservación de datos en capa Bronze (Parquet), consultas OLAP ultra rápidas con DuckDB y cálculo vectorizado de NPV, IRR y VaR.
+*   **Stack:** `Python` · `FastAPI` · `DuckDB` · `Parquet` · `Docker` · `Apache Kafka`
+
+#### ⛏️ [Myna](https://github.com/Medalcode/Myna) · [Demo](https://myna-auyn.vercel.app)
+> **Plataforma Serverless de Data Mining & Clustering**
+
+Plataforma de minería de datos para exploración, limpieza y análisis estadístico descriptivo de datasets tabulares desplegada como API Serverless.
+
+*   **Características clave:** Arquitectura Hexagonal, algoritmos de clustering con Scikit-learn y generación de gráficos interactivos.
+*   **Stack:** `Python` · `Django` · `Pandas` · `Scikit-learn` · `Vercel`
+
+#### 📈 [Predicta](https://github.com/Medalcode/Predicta)
+> **Playground de Machine Learning & Explicabilidad SHAP**
+
+Entorno interactivo para experimentar con datasets tabulares reales, entrenar modelos de clasificación y analizar explicabilidad de características con SHAP.
+
+*   **Características clave:** Ajuste dinámico de hiperparámetros, fronteras de decisión 2D interactiva e interpretación global/local de predicciones.
+*   **Stack:** `Python` · `Streamlit` · `Scikit-learn` · `SHAP` · `Pandas`
 
 ---
 
-### 📂 Otros Proyectos del Portafolio
+### 🛡️ 3. Ciberseguridad, Privacidad & NetOps
+
+#### 🔐 [Privia](https://github.com/Medalcode/Privia)
+> **SaaS B2B para Auditoría Automatizada de Privacidad Web**
+
+MVP de auditoría técnica continua para cumplimiento de privacidad, escaneo de rastreadores y evaluación de riesgo en sitios web.
+
+*   **Características clave:** Ejecución de pruebas con Playwright, tareas en segundo plano con Celery y generación automática de reportes de riesgo.
+*   **Stack:** `Python` · `FastAPI` · `Celery` · `Playwright` · `Docker`
+
+#### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
+> **Suite de Herramientas de Red Client-Side & PWA**
+
+Colección profesional de utilidades para ingenieros de redes y soporte operativo que se ejecutan 100% en el navegador con máxima privacidad.
+
+*   **Características clave:** Calculadora avanzada VLSM, direccionamiento IP de subredes, DNS lookup y generador de plantillas Cisco.
+*   **Stack:** `JavaScript (ES6+)` · `Vite` · `Tailwind CSS` · `PWA` · `Netlify`
+
+#### ♿ [EquiScan](https://github.com/Medalcode/EquiScan)
+> **Motor de Auditoría de Accesibilidad (a11y) & Seguridad WCAG 2.1**
+
+Herramienta automatizada para auditar sitios web contra las pautas de accesibilidad WCAG 2.1 y detectar vulnerabilidades de diseño inclusivo.
+
+*   **Características clave:** Diagnóstico automático del árbol DOM, evaluación de contraste de color y recomendaciones de remediación ARIA.
+*   **Stack:** `Python` · `FastAPI` · `Streamlit` · `Playwright` · `WCAG Engine`
+
+---
+
+### 📂 Otros Proyectos Destacados del Portafolio
 
 <details>
-<summary>⚡ Ver catálogo completo de proyectos desarrollados (Click para expandir)</summary>
+<summary>⚡ Ver catálogo extendido de proyectos desarrollados (Click para expandir)</summary>
 <br />
 
 | Proyecto | Descripción | Stack | Recursos |
 | :--- | :--- | :--- | :--- |
-| **Lucker** | Motor de estadísticas y predicción para Loto con análisis de frecuencia, atraso estructural y optimización de pesos vía backtesting. | `Python`, `Flask`, `Pandas`, `NumPy` | [Código](https://github.com/Medalcode/Lucker) |
-| **PortfolioMedalcode** | Portfolio personal con Astro + Preact + Tailwind v4, i18n, y knowledge graph para agentes AI. | `Astro`, `Preact`, `TypeScript`, `Tailwind v4` | [Código](https://github.com/Medalcode/PortfolioMedalcode) · [Demo](https://medalcode.vercel.app) |
-| **Argos** | Bot de trading algorítmico profesional para Binance Spot con Triple Filtro y dashboard integrado. | `Python`, `Docker`, `Linux` | [Código](https://github.com/Medalcode/Argos) |
-| **Myna** | Plataforma de minería de datos, clustering, limpieza y visualización descriptiva de datasets. | `Python`, `Django`, `Pandas` | [Código](https://github.com/Medalcode/Myna) · [Demo](https://myna-gamma.vercel.app) |
-| **MatrixCalc** | Calculadora de matrices y álgebra lineal en la nube con motor NumPy y visualización paso a paso. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-frontend-541716295092.us-central1.run.app) |
-| **Skema** | Pipeline de triaje y clasificación automática de requerimientos utilizando clasificadores inteligentes. | `Python`, `FastAPI` | [Código](https://github.com/Medalcode/Skema) |
-| **Pathwise** | Extensión de Chrome y dashboard con IA para la búsqueda activa y seguimiento de ofertas de empleo. | `JavaScript`, `Python`, `Chrome API` | [Código](https://github.com/Medalcode/Pathwise) · [Demo](https://panoptes-nine.vercel.app) |
-| **AutoKanban** | Visualizador de archivos de bitácora markdown locales/remotos transformados a tableros Kanban. | `JavaScript`, `HTML/CSS` | [Código](https://github.com/Medalcode/AutoKanban) |
-| **Colabb** | Terminal moderna para Linux potenciada con IA escrita en C++ para máximo rendimiento. | `C++`, `CMake`, `Linux` | [Código](https://github.com/Medalcode/Colabb) |
-| **Kitsune** | Plantilla REST API lista para producción con autenticación JWT y base de datos asíncrona. | `FastAPI`, `Docker`, `PostgreSQL` | [Código](https://github.com/Medalcode/Kitsune) |
-| **Toallaalacarta** | E-commerce real desarrollado con Astro y headless Shopify, optimizado para conversión. | `Astro`, `TypeScript`, `Tailwind` | [Código](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app) |
+| **GitSpy** | Middleware API & Cache Layer con Redis para optimizar rate-limiting de la API de GitHub. | `TypeScript`, `Node.js`, `Redis`, `Docker` | [Código](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app) |
+| **Skema** | Pipeline de triaje y clasificación automática de requerimientos utilizando clasificadores NLP. | `Python`, `FastAPI`, `PostgreSQL` | [Código](https://github.com/Medalcode/Skema) · [Demo](https://skema-api.vercel.app) |
+| **FrictionLog** | API para captura de puntos de dolor de usuarios y priorización inteligente con Gemini AI. | `Python`, `FastAPI`, `PocketBase`, `Streamlit` | [Código](https://github.com/Medalcode/FrictionLog) · [Demo](https://friction-log-beta.vercel.app) |
+| **MatrixCalc** | Calculadora de álgebra lineal en la nube con motor NumPy y visualización de pasos. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-advance.netlify.app) |
+| **Lucker** | Motor de estadísticas y predicción para Loto chileno con 7 filtros de frecuencia calibrados. | `Python`, `Flask`, `Pandas`, `Playwright` | [Código](https://github.com/Medalcode/Lucker) · [Demo](https://lucker.vercel.app) |
+| **PDFTranslate** | Traductor de PDFs con IA que preserva layout, imágenes y tablas intactos. | `Python`, `FastAPI`, `PyMuPDF`, `LLMs` | [Código](https://github.com/Medalcode/PDFTranslate) · [Demo](https://pdftranslate-api.vercel.app) |
+| **PortfolioMedalcode** | Template de portfolio minimalista en Astro 5 + Preact con i18n y soporte PWA. | `Astro`, `TypeScript`, `Tailwind v4` | [Código](https://github.com/Medalcode/PortfolioMedalcode) · [Demo](https://medalcode.vercel.app) |
+| **DocuMind** | Sistema RAG local para consulta de colecciones PDF offline con Ollama y ChromaDB. | `Python`, `LangChain`, `ChromaDB`, `Ollama` | [Código](https://github.com/Medalcode/DocuMind) |
 
 </details>
 

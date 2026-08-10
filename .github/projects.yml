@@ -1,85 +1,163 @@
 # 📦 Single Source of Truth for Portfolio Projects
-# Used by generate-assets.sh, CI/CD, and Web Showcase Portal
+# Structured 3x3 Showcase Architecture: 3 Full-Stack/AI + 3 Data/Analytics + 3 Security/NetOps
 
-projects:
-  - id: mcp-servers
-    name: mcp-servers
-    title: Unified MCP Servers Monorepo — Knowledge-Graph Enhanced
-    description: Arquitectura unificada de servidores MCP desplegados sin Docker, potenciados por knowledge graphs generados con graphify.
-    status: Production
-    stack:
-      - Python
-      - MCP
-      - FastAPI
-      - graphify
-    repo_url: https://github.com/Medalcode/mcp-servers
-    demo_url: null
-    assets:
-      screenshot: .github/assets/screenshots/mcp-servers-dashboard.png
-      diagram: .github/assets/diagrams/mcp-servers-architecture.mmd
+categories:
+  - id: software_development
+    name: Desarrollo Software & Sistemas IA
+    projects:
+      - id: mcp-servers
+        name: mcp-servers
+        title: Unified MCP Servers Monorepo — Knowledge-Graph Enhanced
+        description: Arquitectura unificada de servidores MCP desplegados sin Docker, potenciados por knowledge graphs generados con graphify.
+        status: Production
+        stack:
+          - Python
+          - MCP
+          - FastAPI
+          - graphify
+        repo_url: https://github.com/Medalcode/mcp-servers
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/mcp-servers-dashboard.png
+          diagram: .github/assets/diagrams/mcp-servers-architecture.mmd
 
-  - id: finlogic
-    name: FinLogic
-    title: Plataforma de Ingeniería de Datos Financieros
-    description: Arquitectura modular bajo el principio Lightweight Ingest, Heavy Analysis para análisis cuantitativo.
-    status: Production
-    stack:
-      - Python
-      - FastAPI
-      - DuckDB
-      - Parquet
-      - Docker
-    repo_url: https://github.com/Medalcode/FinLogic
-    demo_url: null
-    assets:
-      screenshot: .github/assets/screenshots/finlogic-dashboard.png
-      diagram: .github/assets/diagrams/finlogic-architecture.mmd
+      - id: nidus
+        name: Nidus
+        title: Sistema Inteligente de Seguimiento de Candidatos (ATS)
+        description: ATS moderno potenciado por Inteligencia Artificial que analiza PDFs, clasifica semánticamente y genera resúmenes.
+        status: Production
+        stack:
+          - Python
+          - FastAPI
+          - React
+          - PostgreSQL
+          - OpenAI
+        repo_url: https://github.com/Medalcode/Nidus
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/nidus-dashboard.png
+          diagram: .github/assets/diagrams/nidus-architecture.mmd
 
-  - id: nidus
-    name: Nidus
-    title: Sistema Inteligente de Seguimiento de Candidatos (ATS)
-    description: ATS moderno potenciado por Inteligencia Artificial que analiza PDFs y genera resúmenes semánticos.
-    status: Production
-    stack:
-      - Python
-      - FastAPI
-      - React
-      - PostgreSQL
-      - OpenAI
-    repo_url: https://github.com/Medalcode/Nidus
-    demo_url: null
-    assets:
-      screenshot: .github/assets/screenshots/nidus-dashboard.png
-      diagram: .github/assets/diagrams/nidus-architecture.mmd
+      - id: toallaalacarta
+        name: Toallaalacarta
+        title: Plataforma E-Commerce SaaS & Integración de Pagos
+        description: E-commerce en producción con Astro 5, Shopify Storefront API, Appwrite, Transbank y PayPal.
+        status: Production
+        stack:
+          - Astro
+          - TypeScript
+          - Shopify API
+          - Appwrite
+          - Tailwind
+        repo_url: https://github.com/Medalcode/Toallaalacarta
+        demo_url: https://toallaalacarta.netlify.app/
+        assets:
+          screenshot: .github/assets/screenshots/toallaalacarta-dashboard.png
+          diagram: .github/assets/diagrams/toallaalacarta-architecture.mmd
 
-  - id: gitspy
-    name: GitSpy
-    title: Middleware API & Cache Layer para GitHub Analytics
-    description: Middleware intermedio para optimizar y cachear consultas de rate-limiting hacia la API de GitHub.
-    status: Production
-    stack:
-      - TypeScript
-      - Node.js
-      - Redis
-      - Express
-    repo_url: https://github.com/Medalcode/GitSpy
-    demo_url: https://git-spy-tau.vercel.app
-    assets:
-      screenshot: .github/assets/screenshots/gitspy-dashboard.png
-      diagram: .github/assets/diagrams/gitspy-architecture.mmd
+  - id: data_engineering_analytics
+    name: Análisis & Ingeniería de Datos
+    projects:
+      - id: finlogic
+        name: FinLogic
+        title: Plataforma de Ingeniería de Datos Financieros
+        description: Arquitectura modular bajo el principio Lightweight Ingest, Heavy Analysis para análisis cuantitativo.
+        status: Production
+        stack:
+          - Python
+          - FastAPI
+          - DuckDB
+          - Parquet
+          - Docker
+        repo_url: https://github.com/Medalcode/FinLogic
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/finlogic-dashboard.png
+          diagram: .github/assets/diagrams/finlogic-architecture.mmd
 
-  - id: netopstoolkit
-    name: NetOpsToolkit
-    title: Suite de Automatización de Operaciones de Red
-    description: Herramientas de diagnóstico, monitoreo y gestión de infraestructura de telecomunicaciones.
-    status: Maintained
-    stack:
-      - Python
-      - Linux
-      - Bash
-      - REST APIs
-    repo_url: https://github.com/Medalcode/NetOpsToolkit
-    demo_url: https://netops-toolkit.netlify.app
-    assets:
-      screenshot: .github/assets/screenshots/netopstoolkit-dashboard.png
-      diagram: .github/assets/diagrams/netopstoolkit-architecture.mmd
+      - id: myna
+        name: Myna
+        title: Plataforma Serverless de Data Mining & Clustering
+        description: Exploración, limpieza y análisis estadístico de datasets tabulares con Arquitectura Hexagonal.
+        status: Production
+        stack:
+          - Python
+          - Django
+          - Pandas
+          - Scikit-learn
+          - Vercel
+        repo_url: https://github.com/Medalcode/Myna
+        demo_url: https://myna-auyn.vercel.app
+        assets:
+          screenshot: .github/assets/screenshots/myna-dashboard.png
+          diagram: .github/assets/diagrams/myna-architecture.mmd
+
+      - id: predicta
+        name: Predicta
+        title: Playground de Machine Learning & Explicabilidad SHAP
+        description: Experimentación con datasets tabulares, entrenamiento de clasificadores y fronteras de decisión 2D.
+        status: Production
+        stack:
+          - Python
+          - Streamlit
+          - Scikit-learn
+          - SHAP
+          - Pandas
+        repo_url: https://github.com/Medalcode/Predicta
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/predicta-dashboard.png
+          diagram: .github/assets/diagrams/predicta-architecture.mmd
+
+  - id: cybersecurity_netops
+    name: Ciberseguridad, Privacidad & NetOps
+    projects:
+      - id: privia
+        name: Privia
+        title: SaaS B2B para Auditoría Automatizada de Privacidad Web
+        description: Escáner de señales técnicas de riesgo, cookies y reporte automatizado de cumplimiento regulatorio.
+        status: Production
+        stack:
+          - Python
+          - FastAPI
+          - Celery
+          - Playwright
+          - Docker
+        repo_url: https://github.com/Medalcode/Privia
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/privia-dashboard.png
+          diagram: .github/assets/diagrams/privia-architecture.mmd
+
+      - id: netopstoolkit
+        name: NetOpsToolkit
+        title: Suite de Herramientas de Red Client-Side & PWA
+        description: Cálculo VLSM, análisis de subredes, DNS lookup y generación de configuraciones Cisco en navegador.
+        status: Production
+        stack:
+          - JavaScript
+          - Vite
+          - Tailwind
+          - PWA
+          - Netlify
+        repo_url: https://github.com/Medalcode/NetOpsToolkit
+        demo_url: https://netops-toolkit.netlify.app/
+        assets:
+          screenshot: .github/assets/screenshots/netopstoolkit-dashboard.png
+          diagram: .github/assets/diagrams/netopstoolkit-architecture.mmd
+
+      - id: equiscan
+        name: EquiScan
+        title: Motor de Auditoría de Accesibilidad (a11y) & Seguridad WCAG 2.1
+        description: Escáner automatizado de sitios web contra estándares WCAG 2.1 con reportes de remediación.
+        status: Production
+        stack:
+          - Python
+          - FastAPI
+          - Streamlit
+          - Playwright
+        repo_url: https://github.com/Medalcode/EquiScan
+        demo_url: null
+        assets:
+          screenshot: .github/assets/screenshots/equiscan-dashboard.png
+          diagram: .github/assets/diagrams/equiscan-architecture.mmd

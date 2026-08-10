@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Documentation Artifacts**: Added architectural review, PR code review, and QA testing strategy reports.
 
 ### Changed
+- **3x3 Portfolio Showcase**: Reorganized portfolio projects in `.github/projects.yml` and `README.md` into 3 strategic pillars (3 Software/AI, 3 Data/Analytics, 3 Cybersecurity/NetOps).
 - **Profile & Resume Update**: Updated `README.md` with latest professional experience (Entel Connect, Soprole practicum, Toalla a la Carta), education at INACAP (22+ years in IT, last semester of Software Engineering), and 2026 certifications (Microsoft Power BI, UAB Excel, PUC Data Viz).
 - **Parameter Parsing**: Refactored `generate-assets.sh` parameter parsing (`get_project_arg()`) supporting both `-p/--project` flags and positional arguments.
 - **Cross-Platform Compatibility**: Replaced Bash 4+ `${var,,}` parameter expansion with POSIX-compatible `to_lowercase()` helper using `tr`.

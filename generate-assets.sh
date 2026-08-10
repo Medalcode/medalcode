@@ -232,7 +232,7 @@ check_missing_assets() {
     local projects_list=""
     if [ -f .github/projects.yml ]; then
         echo -e "${GREEN}📄 Leyendo manifiesto declarativo .github/projects.yml${NC}"
-        projects_list=$(grep -E '^[[:space:]]*name:' .github/projects.yml 2>/dev/null | sed 's/.*name:[[:space:]]*//' || true)
+        projects_list=$(grep -E '^[[:space:]]*- id:' .github/projects.yml 2>/dev/null | sed 's/.*id:[[:space:]]*//' | grep -v 'software_development\|data_engineering_analytics\|cybersecurity_netops' || true)
     elif [ -f README.md ]; then
         echo -e "${YELLOW}📄 Leyendo encabezados desde README.md${NC}"
         projects_list=$(grep '^### ' README.md 2>/dev/null | sed -E -n 's/### [^[]*\[([^]]+)\].*/\1/p' || true)

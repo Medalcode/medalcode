@@ -90,9 +90,10 @@ fi
 
 # Test project audit scanner
 assert_output_contains "mcp-servers" "./generate-assets.sh check"
-assert_output_contains "FinLogic" "./generate-assets.sh check"
-assert_output_contains "Nidus" "./generate-assets.sh check"
-assert_output_contains "GitSpy" "./generate-assets.sh check"
+assert_output_contains "finlogic" "./generate-assets.sh check"
+assert_output_contains "nidus" "./generate-assets.sh check"
+assert_output_contains "privia" "./generate-assets.sh check"
+assert_output_contains "netopstoolkit" "./generate-assets.sh check"
 
 echo ""
 echo "=========================================="
