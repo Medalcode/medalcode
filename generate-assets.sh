@@ -12,6 +12,20 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Helper para conversión a minúsculas portable (Bash 3.2+ / macOS / Linux)
+to_lowercase() {
+    echo "$1" | tr '[:upper:]' '[:lower:]'
+}
+
+# Helper para extraer valor del parámetro del proyecto (-p / --project o posicional)
+get_project_arg() {
+    if [[ "${1:-}" == "-p" || "${1:-}" == "--project" ]]; then
+        echo "${2:-}"
+    else
+        echo "${1:-}"
+    fi
+}
+
 # Función de ayuda
 show_help() {
     cat << EOF
@@ -86,6 +100,8 @@ ASSETS_README
 # Función para guía de screenshots
 screenshot_guide() {
     local project=$1
+    local proj_lower
+    proj_lower=$(to_lowercase "$project")
     
     echo -e "${BLUE}📸 Guía de Screenshots para ${project}${NC}"
     echo ""
@@ -106,24 +122,27 @@ screenshot_guide() {
     echo "  • Tamaño: < 2MB para PNGs, < 5MB para GIFs"
     echo "  • Contenido: Ocultar datos sensibles/personales"
     echo ""
-    echo -e "${GREEN}Guardar en: .github/assets/screenshots/${project,,}-*.png${NC}"
+    echo -e "${GREEN}Guardar en: .github/assets/screenshots/${proj_lower}-*.png${NC}"
 }
 
 # Función para optimizar imágenes
 optimize_images() {
     echo -e "${BLUE}🔧 Optimizando imágenes...${NC}"
     
-    # Verificar si existe imagemagick
-    if ! command -v convert &> /dev/null; then
+    local img_cmd=""
+    if command -v magick &> /dev/null; then
+        img_cmd="magick"
+    elif command -v convert &> /dev/null; then
+        img_cmd="convert"
+    else
         echo -e "${RED}❌ ImageMagick no está instalado${NC}"
-        echo -e "${YELLOW}Instalar con: sudo apt install imagemagick${NC}"
+        echo -e "${YELLOW}Instalar con: sudo apt install imagemagick (o brew install imagemagick)${NC}"
         exit 1
     fi
     
-    # Optimizar PNGs
     find .github/assets -name "*.png" -type f | while read -r img; do
         echo -e "${YELLOW}Optimizando: $img${NC}"
-        convert "$img" -strip -quality 85 "$img.tmp" && mv "$img.tmp" "$img"
+        "$img_cmd" "$img" -strip -quality 85 "$img.tmp" && mv "$img.tmp" "$img"
     done
     
     echo -e "${GREEN}✅ Optimización completada${NC}"
@@ -165,10 +184,12 @@ BADGES
 # Función para crear plantilla de diagrama
 create_diagram_template() {
     local project=$1
+    local proj_lower
+    proj_lower=$(to_lowercase "$project")
     
     echo -e "${BLUE}📊 Creando plantilla de diagrama para ${project}${NC}"
     
-    cat > ".github/assets/diagrams/${project,,}-architecture.mmd" << 'DIAGRAM'
+    cat > ".github/assets/diagrams/${proj_lower}-architecture.mmd" << 'DIAGRAM'
 graph TB
     subgraph "Frontend"
         A[Client/UI]
@@ -199,7 +220,7 @@ graph TB
     style F fill:#dc382d
 DIAGRAM
     
-    echo -e "${GREEN}✅ Plantilla creada en .github/assets/diagrams/${project,,}-architecture.mmd${NC}"
+    echo -e "${GREEN}✅ Plantilla creada en .github/assets/diagrams/${proj_lower}-architecture.mmd${NC}"
     echo -e "${YELLOW}Editar con: https://mermaid.live/${NC}"
 }
 
@@ -208,21 +229,28 @@ check_missing_assets() {
     echo -e "${BLUE}🔍 Verificando assets en proyectos...${NC}"
     echo ""
     
-    # Extraer dinámicamente desde el README.md
-    local main_projects
-    mapfile -t main_projects < <(grep -oP '### [^\[]+\[\K[^\]]+' README.md)
+    if [ ! -f README.md ]; then
+        echo -e "${RED}Error: README.md no encontrado${NC}"
+        return 1
+    fi
     
-    local other_projects
-    mapfile -t other_projects < <(awk '/### 📂 Otros Proyectos del Portafolio/,/<\/details>/' README.md | awk -F'|' '/\| \*\*/ {print $2}' | sed 's/\*\*//g' | awk '{$1=$1;print}')
+    local projects_list
+    projects_list=$(grep '^### ' README.md 2>/dev/null | sed -E -n 's/### [^[]*\[([^]]+)\].*/\1/p' || true)
     
-    local projects=("${main_projects[@]}" "${other_projects[@]}")
+    if [ -z "$projects_list" ]; then
+        echo -e "${YELLOW}No se detectaron proyectos formateados en README.md${NC}"
+        return 0
+    fi
     
     shopt -s nullglob
-    for project in "${projects[@]}"; do
+    while read -r project; do
+        [ -z "$project" ] && continue
+        local proj_lower
+        proj_lower=$(to_lowercase "$project")
         echo -e "${YELLOW}Proyecto: ${project}${NC}"
         
         # Verificar screenshot
-        local sc_files=(.github/assets/screenshots/"${project,,}"*)
+        local sc_files=(.github/assets/screenshots/"${proj_lower}"*)
         if [ ${#sc_files[@]} -gt 0 ]; then
             echo -e "  ${GREEN}✓${NC} Screenshot encontrado"
         else
@@ -230,7 +258,7 @@ check_missing_assets() {
         fi
         
         # Verificar diagrama
-        local diag_files=(.github/assets/diagrams/"${project,,}"*)
+        local diag_files=(.github/assets/diagrams/"${proj_lower}"*)
         if [ ${#diag_files[@]} -gt 0 ]; then
             echo -e "  ${GREEN}✓${NC} Diagrama encontrado"
         else
@@ -238,39 +266,48 @@ check_missing_assets() {
         fi
         
         echo ""
-    done
+    done <<< "$projects_list"
     shopt -u nullglob
 }
 
 # Main script
 main() {
-    case "${1:-}" in
+    local cmd="${1:-}"
+    shift || true
+    
+    case "$cmd" in
         init)
             init_structure
             ;;
         screenshot)
-            if [[ -z "${2:-}" ]]; then
-                echo -e "${RED}Error: Especificar proyecto con -p${NC}"
+            local proj
+            proj=$(get_project_arg "$@")
+            if [[ -z "$proj" ]]; then
+                echo -e "${RED}Error: Especificar proyecto con -p o como argumento${NC}"
                 exit 1
             fi
-            screenshot_guide "$2"
+            screenshot_guide "$proj"
             ;;
         optimize)
             optimize_images
             ;;
         badges)
-            if [[ -z "${2:-}" ]]; then
-                echo -e "${RED}Error: Especificar proyecto con -p${NC}"
+            local proj
+            proj=$(get_project_arg "$@")
+            if [[ -z "$proj" ]]; then
+                echo -e "${RED}Error: Especificar proyecto con -p o como argumento${NC}"
                 exit 1
             fi
-            generate_badges "$2"
+            generate_badges "$proj"
             ;;
         diagram)
-            if [[ -z "${2:-}" ]]; then
-                echo -e "${RED}Error: Especificar proyecto con -p${NC}"
+            local proj
+            proj=$(get_project_arg "$@")
+            if [[ -z "$proj" ]]; then
+                echo -e "${RED}Error: Especificar proyecto con -p o como argumento${NC}"
                 exit 1
             fi
-            create_diagram_template "$2"
+            create_diagram_template "$proj"
             ;;
         check)
             check_missing_assets
@@ -280,10 +317,13 @@ main() {
             ;;
         *)
             show_help
-            exit 1
+            if [[ -n "$cmd" ]]; then
+                exit 1
+            fi
             ;;
     esac
 }
 
 # Ejecutar script
 main "$@"
+
