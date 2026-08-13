@@ -62,29 +62,81 @@ Soy un Analista Programador e Ingeniero en Informática (cursando último semest
 
 ---
 
-## 🚀 Proyectos Destacados (Arquitectura 3×3)
+## 🚀 Proyectos Destacados (Featured Portfolio)
 
 ---
 
-### 💻 1. Desarrollo Software & Sistemas IA
+### 🛡️ [FraudSense](https://github.com/Medalcode/FraudSense) · [Demo](https://fraudsense-api.vercel.app)
+> **Plataforma FinTech de Detección de Fraude en Tiempo Real con Machine Learning & XAI**
 
-#### 🧠 [mcp-servers](https://github.com/Medalcode/mcp-servers)
-> **Unified MCP Servers Monorepo — Knowledge-Graph Enhanced**
+Sistema de análisis financiero que utiliza modelos XGBoost y Explicabilidad (XAI con SHAP) para detectar e interpretar transacciones sospechosas en sistemas de pago digitales en tiempo real.
 
-Arquitectura unificada de servidores MCP (Model Context Protocol) potenciados por Knowledge Graphs generados con Graphify para orquestación de agentes de IA.
+*   **Características clave:** API Serverless de baja latencia, explicabilidad global/local de decisiones de modelos ML y evaluación de patrones de fraude.
+*   **Stack:** `Python` · `XGBoost` · `FastAPI` · `Scikit-Learn` · `XAI / SHAP`
 
-*   **Innovación:** Cada repositorio del ecosistema integra `graphify-out/` para dar contexto semántico directo a los agentes de IA sin escanear archivos.
-*   **Stack:** `Python` · `MCP` · `FastAPI` · `graphify` · `skills.sh`
+---
 
-#### 🤖 [CodeAgent](https://github.com/Medalcode/CodeAgent)
+### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app/)
+> **Suite de Herramientas de Red Client-Side, PWA & Asistente IA**
+
+Plataforma profesional que conecta Telecomunicaciones, Ingeniería Informática e IA. Incluye calculadora VLSM, agregación de rutas, ACL Builder y generador de configuraciones Cisco/Mikrotik/JunOS con asistente Gemini integrando la arquitectura `src/core`, `src/platform` y `src/ui`.
+
+*   **Características clave:** Ejecución 100% en el navegador con soporte PWA, privacidad garantizada (BYOK), i18n y 36+ pruebas automatizadas en Jest.
+*   **Stack:** `JavaScript (ES6+)` · `Vite` · `PWA` · `Tailwind CSS` · `Gemini AI`
+
+---
+
+### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
+> **Plataforma de Ingeniería de Datos Financieros**
+
+Arquitectura modular basada en el principio *"Lightweight Ingest, Heavy Analysis"*, diseñada para eliminar la fricción entre la ingesta de datos de mercado y el análisis cuantitativo.
+
+*   **Características clave:** Preservación de datos en capa Bronze (Parquet), consultas OLAP ultra rápidas con DuckDB y motores de valoración de activos (NPV, IRR, VaR).
+*   **Stack:** `Python` · `FastAPI` · `DuckDB` · `Parquet` · `Docker` · `Apache Kafka`
+
+---
+
+### 🤖 [CodeAgent](https://github.com/Medalcode/CodeAgent)
 > **Centro de Mando Avanzado para Agentes Inteligentes & Orquestación**
 
-Plataforma completa estilo OpenCode u OpenWebUI diseñada para interactuar con repositorios de código locales y remotos, gestionar tareas complejas y orquestar agentes IA.
+Plataforma completa estilo OpenCode u OpenWebUI para interactuar con repositorios de código locales y remotos, gestionar tareas complejas y orquestar agentes inteligentes con `smolagents`.
 
-*   **Características clave:** Interfaz interactiva en Streamlit, integración con `smolagents`, ejecución de herramientas y orquestación multi-agente.
+*   **Características clave:** Interfaz interactiva en Streamlit, ejecución dinámica de herramientas, flujo de tareas e integración multi-modelo.
 *   **Stack:** `Python` · `Streamlit` · `smolagents` · `LLMs` · `Agentic AI`
 
-#### 🛒 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app/)
+---
+
+### ⚙️ [DataPrep](https://github.com/Medalcode/DataPrep)
+> **Pipeline Automatizado de Ingesta & Calidad de Datos**
+
+Sistema automatizado de ingeniería de datos que ingiere datos crudos desde múltiples fuentes, detecta problemas de calidad y aplica transformaciones automáticas para generar datasets listos para anclas de BI/ML.
+
+*   **Características clave:** Reglas paramétricas de limpieza de datos, orquestación de tareas en Airflow e interfaz visual interactiva.
+*   **Stack:** `Python` · `Airflow` · `Pandas` · `Streamlit` · `Data Quality`
+
+---
+
+### 🧠 [DocuMind](https://github.com/Medalcode/DocuMind)
+> **Sistema RAG Local Offline para Consulta de PDFs**
+
+Sistema de inteligencia artificial local que permite consultar colecciones de documentos PDF usando lenguaje natural en local gracias a Ollama y ChromaDB (100% privado sin llamadas a APIs externas).
+
+*   **Características clave:** Embeddings locales, búsqueda vectorial híbrida y resúmenes de documentos con LangChain.
+*   **Stack:** `Python` · `LangChain` · `ChromaDB` · `Ollama` · `RAG`
+
+---
+
+### 📄 [PDFTranslate](https://github.com/Medalcode/PDFTranslate) · [Demo](https://pdftranslate-api.vercel.app)
+> **Traductor Documental con IA & Preservación de Layout**
+
+Traductor de documentos PDF con IA que preserva el maquetado original (imágenes, diagramas, tablas y estructura intactos) procesando bloques con PyMuPDF y LLMs.
+
+*   **Características clave:** Extracción OCR, traducción contextualizada por párrafos y reconstrucción fidedigna del archivo final.
+*   **Stack:** `Python` · `FastAPI` · `PyMuPDF` · `LLMs (OpenAI/Gemini)` · `OCR`
+
+---
+
+### 🛒 [Toallaalacarta](https://github.com/Medalcode/Toallaalacarta) · [Demo](https://toallaalacarta.netlify.app/)
 > **Plataforma E-Commerce SaaS & Integración de Pagos**
 
 E-commerce real en producción con catálogo dinámico, panel administrativo de órdenes, emails transaccionales e integración de pasarelas de pago.
@@ -94,78 +146,30 @@ E-commerce real en producción con catálogo dinámico, panel administrativo de 
 
 ---
 
-### 📊 2. Análisis & Ingeniería de Datos
-
-#### 💰 [FinLogic](https://github.com/Medalcode/FinLogic)
-> **Plataforma de Ingeniería de Datos Financieros**
-
-Arquitectura modular diseñada bajo el principio *"Lightweight Ingest, Heavy Analysis"*, optimizada para eliminar la fricción entre ingesta y análisis cuantitativo.
-
-*   **Características clave:** Preservación de datos en capa Bronze (Parquet), consultas OLAP ultra rápidas con DuckDB y cálculo vectorizado de NPV, IRR y VaR.
-*   **Stack:** `Python` · `FastAPI` · `DuckDB` · `Parquet` · `Docker` · `Apache Kafka`
-
-#### ⛏️ [Myna](https://github.com/Medalcode/Myna) · [Demo](https://myna-auyn.vercel.app)
-> **Plataforma Serverless de Data Mining & Clustering**
-
-Plataforma de minería de datos para exploración, limpieza y análisis estadístico descriptivo de datasets tabulares desplegada como API Serverless.
-
-*   **Características clave:** Arquitectura Hexagonal, algoritmos de clustering con Scikit-learn y generación de gráficos interactivos.
-*   **Stack:** `Python` · `Django` · `Pandas` · `Scikit-learn` · `Vercel`
-
-#### 📈 [Predicta](https://github.com/Medalcode/Predicta)
-> **Playground de Machine Learning & Explicabilidad SHAP**
-
-Entorno interactivo para experimentar con datasets tabulares reales, entrenar modelos de clasificación y analizar explicabilidad de características con SHAP.
-
-*   **Características clave:** Ajuste dinámico de hiperparámetros, fronteras de decisión 2D interactiva e interpretación global/local de predicciones.
-*   **Stack:** `Python` · `Streamlit` · `Scikit-learn` · `SHAP` · `Pandas`
-
----
-
-### 🛡️ 3. Ciberseguridad, Privacidad & NetOps
-
-#### 🔐 [Privia](https://github.com/Medalcode/Privia)
-> **SaaS B2B para Auditoría Automatizada de Privacidad Web**
-
-MVP de auditoría técnica continua para cumplimiento de privacidad, escaneo de rastreadores y evaluación de riesgo en sitios web.
-
-*   **Características clave:** Ejecución de pruebas con Playwright, tareas en segundo plano con Celery y generación automática de reportes de riesgo.
-*   **Stack:** `Python` · `FastAPI` · `Celery` · `Playwright` · `Docker`
-
-#### 🛰️ [NetOpsToolkit](https://github.com/Medalcode/NetOpsToolkit) · [Demo](https://netops-toolkit.netlify.app)
-> **Suite de Herramientas de Red Client-Side & PWA**
-
-Colección profesional de utilidades para ingenieros de redes y soporte operativo que se ejecutan 100% en el navegador con máxima privacidad.
-
-*   **Características clave:** Calculadora avanzada VLSM, direccionamiento IP de subredes, DNS lookup y generador de plantillas Cisco.
-*   **Stack:** `JavaScript (ES6+)` · `Vite` · `Tailwind CSS` · `PWA` · `Netlify`
-
-#### ♿ [EquiScan](https://github.com/Medalcode/EquiScan)
-> **Motor de Auditoría de Accesibilidad (a11y) & Seguridad WCAG 2.1**
-
-Herramienta automatizada para auditar sitios web contra las pautas de accesibilidad WCAG 2.1 y detectar vulnerabilidades de diseño inclusivo.
-
-*   **Características clave:** Diagnóstico automático del árbol DOM, evaluación de contraste de color y recomendaciones de remediación ARIA.
-*   **Stack:** `Python` · `FastAPI` · `Streamlit` · `Playwright` · `WCAG Engine`
-
----
-
-### 📂 Otros Proyectos Destacados del Portafolio
+### 📂 Catálogo Extendido & Experimentos
 
 <details>
-<summary>⚡ Ver catálogo extendido de proyectos desarrollados (Click para expandir)</summary>
+<summary>⚡ Ver Proyectos Especializados y Experimentos (Click para expandir)</summary>
 <br />
 
+#### 🔬 Proyectos Especializados (Tier 2)
 | Proyecto | Descripción | Stack | Recursos |
 | :--- | :--- | :--- | :--- |
-| **GitSpy** | Middleware API & Cache Layer con Redis para optimizar rate-limiting de la API de GitHub. | `TypeScript`, `Node.js`, `Redis`, `Docker` | [Código](https://github.com/Medalcode/GitSpy) · [Demo](https://git-spy-tau.vercel.app) |
-| **Skema** | Pipeline de triaje y clasificación automática de requerimientos utilizando clasificadores NLP. | `Python`, `FastAPI`, `PostgreSQL` | [Código](https://github.com/Medalcode/Skema) · [Demo](https://skema-api.vercel.app) |
-| **FrictionLog** | API para captura de puntos de dolor de usuarios y priorización inteligente con Gemini AI. | `Python`, `FastAPI`, `PocketBase`, `Streamlit` | [Código](https://github.com/Medalcode/FrictionLog) · [Demo](https://friction-log-beta.vercel.app) |
-| **MatrixCalc** | Calculadora de álgebra lineal en la nube con motor NumPy y visualización de pasos. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-advance.netlify.app) |
-| **Lucker** | Motor de estadísticas y predicción para Loto chileno con 7 filtros de frecuencia calibrados. | `Python`, `Flask`, `Pandas`, `Playwright` | [Código](https://github.com/Medalcode/Lucker) · [Demo](https://lucker.vercel.app) |
-| **PDFTranslate** | Traductor de PDFs con IA que preserva layout, imágenes y tablas intactos. | `Python`, `FastAPI`, `PyMuPDF`, `LLMs` | [Código](https://github.com/Medalcode/PDFTranslate) · [Demo](https://pdftranslate-api.vercel.app) |
-| **PortfolioMedalcode** | Template de portfolio minimalista en Astro 5 + Preact con i18n y soporte PWA. | `Astro`, `TypeScript`, `Tailwind v4` | [Código](https://github.com/Medalcode/PortfolioMedalcode) · [Demo](https://medalcode.vercel.app) |
-| **DocuMind** | Sistema RAG local para consulta de colecciones PDF offline con Ollama y ChromaDB. | `Python`, `LangChain`, `ChromaDB`, `Ollama` | [Código](https://github.com/Medalcode/DocuMind) |
+| **mcp-servers** | Monorepo unificado con 13 servidores MCP y Knowledge Graphs integrados con Graphify. | `Python`, `FastAPI`, `MCP` | [Código](https://github.com/Medalcode/mcp-servers) |
+| **DataWeaver** | Motor de reglas paramétrico para reemplazo de macros VBA en flujos complejos de Excel. | `Python`, `FastAPI`, `Pandas` | [Código](https://github.com/Medalcode/DataWeaver) |
+| **Myna** | Plataforma serverless de data mining, clustering y análisis estadístico de datasets. | `Python`, `Django`, `Scikit-learn` | [Código](https://github.com/Medalcode/Myna) · [Demo](https://myna-auyn.vercel.app) |
+| **Predicta** | Playground de ML interactivo con fronteras de decisión 2D e interpretación SHAP. | `Python`, `Streamlit`, `Scikit-learn` | [Código](https://github.com/Medalcode/Predicta) |
+| **Privia** | SaaS B2B para auditoría automatizada de privacidad web y escaneo de cookies. | `Python`, `FastAPI`, `Playwright` | [Código](https://github.com/Medalcode/Privia) |
+| **EquiScan** | Motor de auditoría de accesibilidad (a11y) y seguridad web contra normas WCAG 2.1. | `Python`, `FastAPI`, `Playwright` | [Código](https://github.com/Medalcode/EquiScan) |
+| **Skema** | Pipeline de triaje y enrutamiento automático de requerimientos con clasificadores NLP. | `Python`, `FastAPI`, `PostgreSQL` | [Código](https://github.com/Medalcode/Skema) · [Demo](https://skema-api.vercel.app) |
+| **AgentHire** | Agente autónomo de IA para búsqueda y postulación inteligente a ofertas laborales. | `Python`, `Playwright`, `LLMs` | [Código](https://github.com/Medalcode/AgentHire) |
+| **FrictionLog** | Captura y priorización de puntos de dolor de usuarios analizados con Gemini AI. | `Python`, `FastAPI`, `PocketBase` | [Código](https://github.com/Medalcode/FrictionLog) · [Demo](https://friction-log-beta.vercel.app) |
+| **Matrixcalc** | Calculadora de álgebra lineal y matrices en la nube con motor NumPy. | `Django`, `Vue 3`, `GCP` | [Código](https://github.com/Medalcode/Matrixcalc) · [Demo](https://matrixcalc-advance.netlify.app) |
+
+#### 🗃️ Proyectos Archivados / Experimentos Legados (Tier 3)
+| Proyecto | Estado | Notas |
+| :--- | :--- | :--- |
+| **TheMutation** | 🗃️ Archived / Legacy | Experimento de API para humanizar texto generado por LLMs (Reemplazado por proyectos de IA más maduros). |
 
 </details>
 

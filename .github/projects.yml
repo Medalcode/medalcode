@@ -1,163 +1,179 @@
 # 📦 Single Source of Truth for Portfolio Projects
-# Structured 3x3 Showcase Architecture: 3 Full-Stack/AI + 3 Data/Analytics + 3 Security/NetOps
+# Curation Strategy: 8 Featured Projects (Tier 1) + Specialized Projects (Tier 2) + Legacy (Archived)
 
-categories:
-  - id: software_development
-    name: Desarrollo Software & Sistemas IA
-    projects:
-      - id: mcp-servers
-        name: mcp-servers
-        title: Unified MCP Servers Monorepo — Knowledge-Graph Enhanced
-        description: Arquitectura unificada de servidores MCP desplegados sin Docker, potenciados por knowledge graphs generados con graphify.
-        status: Production
-        stack:
-          - Python
-          - MCP
-          - FastAPI
-          - graphify
-        repo_url: https://github.com/Medalcode/mcp-servers
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/mcp-servers-dashboard.png
-          diagram: .github/assets/diagrams/mcp-servers-architecture.mmd
+featured_projects:
+  - id: fraudsense
+    name: FraudSense
+    title: Plataforma FinTech de Detección de Fraude en Tiempo Real con Machine Learning & XAI
+    description: Sistema de análisis financiero con modelos XGBoost, explicabilidad XAI y API serverless para detectar transacciones sospechosas.
+    status: Production
+    stack:
+      - Python
+      - XGBoost
+      - FastAPI
+      - Scikit-Learn
+      - XAI
+    repo_url: https://github.com/Medalcode/FraudSense
+    demo_url: https://fraudsense-api.vercel.app
+    assets:
+      screenshot: .github/assets/screenshots/fraudsense-dashboard.png
+      diagram: .github/assets/diagrams/fraudsense-architecture.mmd
 
-      - id: codeagent
-        name: CodeAgent
-        title: Centro de Mando Avanzado para Agentes Inteligentes & Orquestación
-        description: Plataforma estilo OpenCode/OpenWebUI para interactuar con repositorios, gestionar tareas y orquestar agentes IA.
-        status: Production
-        stack:
-          - Python
-          - Streamlit
-          - smolagents
-          - LLMs
-          - Agentic AI
-        repo_url: https://github.com/Medalcode/CodeAgent
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/codeagent-dashboard.png
-          diagram: .github/assets/diagrams/codeagent-architecture.mmd
+  - id: netopstoolkit
+    name: NetOpsToolkit
+    title: Suite de Herramientas de Red Client-Side, PWA & Asistente IA
+    description: Intersección de Telecomunicaciones, Ingeniería e IA. Calculadora VLSM, DNS lookup, agregación de rutas y generador de configs Cisco/Mikrotik.
+    status: Production
+    stack:
+      - JavaScript
+      - Vite
+      - PWA
+      - Tailwind
+      - Gemini AI
+    repo_url: https://github.com/Medalcode/NetOpsToolkit
+    demo_url: https://netops-toolkit.netlify.app/
+    assets:
+      screenshot: .github/assets/screenshots/netopstoolkit-dashboard.png
+      diagram: .github/assets/diagrams/netopstoolkit-architecture.mmd
 
-      - id: toallaalacarta
-        name: Toallaalacarta
-        title: Plataforma E-Commerce SaaS & Integración de Pagos
-        description: E-commerce en producción con Astro 5, Shopify Storefront API, Appwrite, Transbank y PayPal.
-        status: Production
-        stack:
-          - Astro
-          - TypeScript
-          - Shopify API
-          - Appwrite
-          - Tailwind
-        repo_url: https://github.com/Medalcode/Toallaalacarta
-        demo_url: https://toallaalacarta.netlify.app/
-        assets:
-          screenshot: .github/assets/screenshots/toallaalacarta-dashboard.png
-          diagram: .github/assets/diagrams/toallaalacarta-architecture.mmd
+  - id: finlogic
+    name: FinLogic
+    title: Plataforma de Ingeniería de Datos Financieros
+    description: Arquitectura modular bajo el principio Lightweight Ingest, Heavy Analysis con capa Bronze Parquet, queries DuckDB y cálculos NPV/IRR/VaR.
+    status: Production
+    stack:
+      - Python
+      - FastAPI
+      - DuckDB
+      - Parquet
+      - Kafka
+    repo_url: https://github.com/Medalcode/FinLogic
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/finlogic-dashboard.png
+      diagram: .github/assets/diagrams/finlogic-architecture.mmd
 
-  - id: data_engineering_analytics
-    name: Análisis & Ingeniería de Datos
-    projects:
-      - id: finlogic
-        name: FinLogic
-        title: Plataforma de Ingeniería de Datos Financieros
-        description: Arquitectura modular bajo el principio Lightweight Ingest, Heavy Analysis para análisis cuantitativo.
-        status: Production
-        stack:
-          - Python
-          - FastAPI
-          - DuckDB
-          - Parquet
-          - Docker
-        repo_url: https://github.com/Medalcode/FinLogic
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/finlogic-dashboard.png
-          diagram: .github/assets/diagrams/finlogic-architecture.mmd
+  - id: codeagent
+    name: CodeAgent
+    title: Centro de Mando Avanzado para Agentes Inteligentes & Orquestación
+    description: Plataforma estilo OpenCode/OpenWebUI para interactuar con repositorios de código, gestionar tareas y orquestar agentes con smolagents.
+    status: Production
+    stack:
+      - Python
+      - Streamlit
+      - smolagents
+      - LLMs
+      - Agentic AI
+    repo_url: https://github.com/Medalcode/CodeAgent
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/codeagent-dashboard.png
+      diagram: .github/assets/diagrams/codeagent-architecture.mmd
 
-      - id: myna
-        name: Myna
-        title: Plataforma Serverless de Data Mining & Clustering
-        description: Exploración, limpieza y análisis estadístico de datasets tabulares con Arquitectura Hexagonal.
-        status: Production
-        stack:
-          - Python
-          - Django
-          - Pandas
-          - Scikit-learn
-          - Vercel
-        repo_url: https://github.com/Medalcode/Myna
-        demo_url: https://myna-auyn.vercel.app
-        assets:
-          screenshot: .github/assets/screenshots/myna-dashboard.png
-          diagram: .github/assets/diagrams/myna-architecture.mmd
+  - id: dataprep
+    name: DataPrep
+    title: Pipeline Automatizado de Ingesta & Calidad de Datos
+    description: Sistema automatizado que ingiere datos crudos multifuente, detecta anomalías de calidad y aplica transformaciones para anáisis.
+    status: Production
+    stack:
+      - Python
+      - Airflow
+      - Pandas
+      - Streamlit
+      - Data Quality
+    repo_url: https://github.com/Medalcode/DataPrep
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/dataprep-dashboard.png
+      diagram: .github/assets/diagrams/dataprep-architecture.mmd
 
-      - id: predicta
-        name: Predicta
-        title: Playground de Machine Learning & Explicabilidad SHAP
-        description: Experimentación con datasets tabulares, entrenamiento de clasificadores y fronteras de decisión 2D.
-        status: Production
-        stack:
-          - Python
-          - Streamlit
-          - Scikit-learn
-          - SHAP
-          - Pandas
-        repo_url: https://github.com/Medalcode/Predicta
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/predicta-dashboard.png
-          diagram: .github/assets/diagrams/predicta-architecture.mmd
+  - id: documind
+    name: DocuMind
+    title: Sistema RAG Local Offline para Consulta de PDFs
+    description: Motor de consulta inteligente de documentos PDF con lenguaje natural en local usando Ollama y ChromaDB sin enviar datos al exterior.
+    status: Production
+    stack:
+      - Python
+      - LangChain
+      - ChromaDB
+      - Ollama
+      - RAG
+    repo_url: https://github.com/Medalcode/DocuMind
+    demo_url: null
+    assets:
+      screenshot: .github/assets/screenshots/documind-dashboard.png
+      diagram: .github/assets/diagrams/documind-architecture.mmd
 
-  - id: cybersecurity_netops
-    name: Ciberseguridad, Privacidad & NetOps
-    projects:
-      - id: privia
-        name: Privia
-        title: SaaS B2B para Auditoría Automatizada de Privacidad Web
-        description: Escáner de señales técnicas de riesgo, cookies y reporte automatizado de cumplimiento regulatorio.
-        status: Production
-        stack:
-          - Python
-          - FastAPI
-          - Celery
-          - Playwright
-          - Docker
-        repo_url: https://github.com/Medalcode/Privia
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/privia-dashboard.png
-          diagram: .github/assets/diagrams/privia-architecture.mmd
+  - id: pdftranslate
+    name: PDFTranslate
+    title: Traductor Documental con IA & Preservación de Layout
+    description: Traducción inteligente de archivos PDF manteniendo intacto el maquetado original, diagramas, imágenes y tablas con PyMuPDF y LLMs.
+    status: Production
+    stack:
+      - Python
+      - FastAPI
+      - PyMuPDF
+      - LLMs
+      - OCR
+    repo_url: https://github.com/Medalcode/PDFTranslate
+    demo_url: https://pdftranslate-api.vercel.app
+    assets:
+      screenshot: .github/assets/screenshots/pdftranslate-dashboard.png
+      diagram: .github/assets/diagrams/pdftranslate-architecture.mmd
 
-      - id: netopstoolkit
-        name: NetOpsToolkit
-        title: Suite de Herramientas de Red Client-Side & PWA
-        description: Cálculo VLSM, análisis de subredes, DNS lookup y generación de configuraciones Cisco en navegador.
-        status: Production
-        stack:
-          - JavaScript
-          - Vite
-          - Tailwind
-          - PWA
-          - Netlify
-        repo_url: https://github.com/Medalcode/NetOpsToolkit
-        demo_url: https://netops-toolkit.netlify.app/
-        assets:
-          screenshot: .github/assets/screenshots/netopstoolkit-dashboard.png
-          diagram: .github/assets/diagrams/netopstoolkit-architecture.mmd
+  - id: toallaalacarta
+    name: Toallaalacarta
+    title: Plataforma E-Commerce SaaS & Integración de Pagos
+    description: E-commerce real en producción con catálogo dinámico, panel admin de órdenes, emails transaccionales, Shopify API, Transbank y PayPal.
+    status: Production
+    stack:
+      - Astro 5
+      - TypeScript
+      - Shopify API
+      - Appwrite
+      - Tailwind
+    repo_url: https://github.com/Medalcode/Toallaalacarta
+    demo_url: https://toallaalacarta.netlify.app/
+    assets:
+      screenshot: .github/assets/screenshots/toallaalacarta-dashboard.png
+      diagram: .github/assets/diagrams/toallaalacarta-architecture.mmd
 
-      - id: equiscan
-        name: EquiScan
-        title: Motor de Auditoría de Accesibilidad (a11y) & Seguridad WCAG 2.1
-        description: Escáner automatizado de sitios web contra estándares WCAG 2.1 con reportes de remediación.
-        status: Production
-        stack:
-          - Python
-          - FastAPI
-          - Streamlit
-          - Playwright
-        repo_url: https://github.com/Medalcode/EquiScan
-        demo_url: null
-        assets:
-          screenshot: .github/assets/screenshots/equiscan-dashboard.png
-          diagram: .github/assets/diagrams/equiscan-architecture.mmd
+secondary_projects:
+  - id: mcp-servers
+    name: mcp-servers
+    title: Unified MCP Servers Monorepo (13 MCP Servers)
+    repo_url: https://github.com/Medalcode/mcp-servers
+  - id: dataweaver
+    name: DataWeaver
+    title: Parametric Rule Engine for VBA Replacement
+    repo_url: https://github.com/Medalcode/DataWeaver
+  - id: myna
+    name: Myna
+    title: Data Mining & Clustering Serverless Platform
+    repo_url: https://github.com/Medalcode/Myna
+  - id: predicta
+    name: Predicta
+    title: Interactive ML Playground & SHAP Explainability
+    repo_url: https://github.com/Medalcode/Predicta
+  - id: privia
+    name: Privia
+    title: Automated Web Privacy Audit SaaS
+    repo_url: https://github.com/Medalcode/Privia
+  - id: equiscan
+    name: EquiScan
+    title: Web Accessibility & WCAG 2.1 Audit Engine
+    repo_url: https://github.com/Medalcode/EquiScan
+  - id: skema
+    name: Skema
+    title: Automated Requirements Triage Pipeline
+    repo_url: https://github.com/Medalcode/Skema
+  - id: agenthire
+    name: AgentHire
+    title: Autonomous Job Application AI Agent
+    repo_url: https://github.com/Medalcode/AgentHire
+
+archived_projects:
+  - id: themutation
+    name: TheMutation
+    title: Humanizer Backend API (Legacy Experiment)
+    repo_url: https://github.com/Medalcode/TheMutation

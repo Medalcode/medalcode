@@ -89,11 +89,12 @@ else
 fi
 
 # Test project audit scanner
-assert_output_contains "mcp-servers" "./generate-assets.sh check"
+assert_output_contains "fraudsense" "./generate-assets.sh check"
+assert_output_contains "netopstoolkit" "./generate-assets.sh check"
 assert_output_contains "finlogic" "./generate-assets.sh check"
 assert_output_contains "codeagent" "./generate-assets.sh check"
-assert_output_contains "privia" "./generate-assets.sh check"
-assert_output_contains "netopstoolkit" "./generate-assets.sh check"
+assert_output_contains "dataprep" "./generate-assets.sh check"
+assert_output_contains "documind" "./generate-assets.sh check"
 
 echo ""
 echo "=========================================="
